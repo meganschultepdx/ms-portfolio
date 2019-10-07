@@ -1,9 +1,8 @@
 import React from "react";
-// import profilePic from "./assets/img/profilePic;";
-import Title from "./Components/Title";
-import Contact from "./Components/Contact";
+import Title from "./Title";
+import Contact from "./Contact";
 
-const Header = () => {
+const HeaderT = () => {
 	return (
 		<div className="header">
 			{/* <img src={profilePic} className="profile-pic" alt="profile pic" /> */}
@@ -13,4 +12,4 @@ const Header = () => {
 	);
 };
 
-export default Header;
+export default HeaderT;
