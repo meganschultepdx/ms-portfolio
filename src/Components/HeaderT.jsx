@@ -5,7 +5,6 @@ import Contact from "./Contact";
 const HeaderT = () => {
 	return (
 		<div className="header">
-			{/* <img src={profilePic} className="profile-pic" alt="profile pic" /> */}
 			<Title />
 			<Contact />
 		</div>
