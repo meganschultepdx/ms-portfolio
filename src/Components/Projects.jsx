@@ -4,8 +4,10 @@ import "video-react/dist/video-react.css";
 
 const fieldguide2 = require("../assets/img/fieldguide2.png");
 const stephenkingdom = require("../assets/img/stephenkingdom.png");
-const HighlanderTapHouse = require("../assets/img/HighlanderTapHouse.mov");
-const PartnerScraper = require("../assets/img/PartnerScraper.mov");
+const highlander = require("../assets/img/highlander.png");
+const PartnerScraperPic = require("../assets/img/PartnerScraperPic.png");
+const freefood = require("../assets/img/freefood.png");
+const hairsalon = require("../assets/img/hairsalon.png");
 
 const Projects = () => {
 	return (
@@ -13,11 +15,7 @@ const Projects = () => {
 			<h2>projects</h2>
 
 			<h3>partner scraper tool</h3>
-			<Player
-				playsInline
-				poster="/assets/img/highlander"
-				src={PartnerScraper}
-			/>
+			<img src={PartnerScraperPic} alt="screen shots of app" />
 			<p>
 				This was an internal company tool created during a five week internship.
 				The back-end is built as an independent API with C#/EF Core/Sqlite; the
@@ -44,11 +42,8 @@ const Projects = () => {
 			</a>
 
 			<h3>highlander tap house</h3>
-			<Player
-				playsInline
-				poster="/assets/img/highlander"
-				src={HighlanderTapHouse}
-			/>
+			<img src={highlander} alt="screen shots of app" />
+
 			<p>
 				This web application is designed to be both a tap room beer list for
 				customers and a keg tracking app for the eployees of said tap room. It
@@ -62,9 +57,10 @@ const Projects = () => {
 			</a>
 
 			<h3>portland field guide</h3>
-			<a href="https://portland-field-guide.firebaseapp.com/">
+			<a href="https://portland-field-guide.firebaseapp.com/" target="blank">
 				view hosted site
 			</a>
+
 			<img src={fieldguide2} alt="screen shots of app" />
 			<p>
 				This is a web application that allows users to search local native and
@@ -78,7 +74,20 @@ const Projects = () => {
 				view Code
 			</a>
 
+			<h3>alchemy hair salon</h3>
+			<img src={hairsalon} alt="screen shots of app" />
+			<p>
+				This web application allows the user to check the surf report and
+				weather for three main surf spots on the Oregon coast. It prpovides only
+				the most essential information needed to decide whether the conditions
+				are good for surfing at that particular location at that particular time
+			</p>
+			<a href="https://github.com/meganschultepdx/HairSalon" target="blank">
+				view Code
+			</a>
+
 			<h3>pdx free food finder</h3>
+			<img src={freefood} alt="screen shots of app" />
 			<a
 				href="https://meganschultepdx.github.io/free-food-finder/index.html"
 				target="blank"
@@ -94,17 +103,6 @@ const Projects = () => {
 				href="https://github.com/meganschultepdx/free-food-finder"
 				target="blank"
 			>
-				view Code
-			</a>
-
-			<h3>zamn oregon coast surf finder</h3>
-			<p>
-				This web application allows the user to check the surf report and
-				weather for three main surf spots on the Oregon coast. It prpovides only
-				the most essential information needed to decide whether the conditions
-				are good for surfing at that particular location at that particular time
-			</p>
-			<a href="https://github.com/meganschultepdx/ZAMN.Solution" target="blank">
 				view Code
 			</a>
 		</div>
