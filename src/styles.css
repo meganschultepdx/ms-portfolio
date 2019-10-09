@@ -175,3 +175,20 @@ a.linkToHosted:hover {
 	font-weight: lighter;
 	color: #926e03;
 }
+
+.modal {
+	width: 375px;
+	height: 400px;
+	position: fixed;
+	top: 185px;
+	padding: 12px;
+	background-color: white;
+}
+
+.modal-close-button {
+	width: 50px;
+	height: 30px;
+	border-radius: 6px;
+	background-color: black;
+	color: white;
+}
