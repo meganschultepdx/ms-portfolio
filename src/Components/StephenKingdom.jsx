@@ -1,6 +1,6 @@
 import React from "react";
 
-const kingdomscreenshots = require("../assets/img/kingdomscreenshots.pdf");
+const kingdomscreenshots = require("../assets/img/kingdomscreenshots.png");
 
 const StephenKingdom = () => {
 	return (

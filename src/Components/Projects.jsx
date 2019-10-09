@@ -1,6 +1,7 @@
 import React from "react";
 import UseModal from "./UseModal";
-import Modal from "./Modal";
+import KingdomModal from "./KingdomModal";
+import HighlanderModal from "./HighlanderModal";
 
 const fieldguide2 = require("../assets/img/fieldguide2.png");
 const stephenkingdom = require("../assets/img/stephenkingdom.png");
@@ -10,7 +11,7 @@ const freefood = require("../assets/img/freefood.png");
 const hairsalon = require("../assets/img/hairsalon.png");
 
 const Projects = () => {
-	const { isShowing, toggle } = UseModal();
+	const { isShowing, isShown, toggle, highlanderToggle } = UseModal();
 	return (
 		<div className="projects">
 			<h2 className="sectionLabel">projects</h2>
@@ -22,7 +23,7 @@ const Projects = () => {
 					className="screenShot"
 				/>
 			</button>
-			<Modal isShowing={isShowing} hide={toggle} />
+			<KingdomModal isShowing={isShowing} hide={toggle} />
 			<h4 className="stackUsed">React Native App with Firebase as BaaS</h4>
 			<p className="aboutProject">
 				This mobile app will be a database for information on Stephen King
@@ -36,8 +37,16 @@ const Projects = () => {
 				view Code
 			</a>
 			<div className="spacer"></div>
+
 			<h3 className="projectTitles">highlander tap house</h3>
-			<img src={highlander} alt="screen shots of app" className="screenShot" />
+			<button onClick={highlanderToggle}>
+				<img
+					src={highlander}
+					alt="screen shots of app"
+					className="screenShot"
+				/>
+			</button>
+			<HighlanderModal isShown={isShown} hide={highlanderToggle} />
 			<h4 className="stackUsed">React web app</h4>
 			<p className="aboutProject">
 				This web application is designed to be both a tap room beer list for
@@ -52,6 +61,7 @@ const Projects = () => {
 				view Code
 			</a>
 			<div className="spacer"></div>
+
 			<h3 className="projectTitles">partner scraper tool</h3>
 			<div className="imageBackground">
 				<div className="whiteImageBackground">

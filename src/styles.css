@@ -72,10 +72,14 @@ body {
 .projectTitles {
 	text-transform: uppercase;
 	padding-top: 20px;
-	margin-left: 10px;
+	margin-left: 15px;
 	color: #666154;
 	font-family: "Raleway", sans-serif;
 }
+
+/* .container {
+	width: 100%;
+} */
 
 .screenShot {
 	width: 100%;
@@ -84,8 +88,31 @@ body {
 	margin-top: 10px;
 }
 
+/* .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+.screenShot:hover .overlay {
+	opacity: 1;
+} */
+
+.imageClick {
+	font-size: 0.5em;
+	color: white;
+	margin-right: 20px;
+	text-align: right;
+}
+
 .stackUsed {
-	margin-left: 10px;
+	margin-left: 15px;
 	text-transform: uppercase;
 	margin-top: 10px;
 	color: #4e4a40;
@@ -95,7 +122,7 @@ body {
 .aboutProject {
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin-left: 10px;
+	margin-left: 15px;
 	color: #a8a3a5;
 	font-family: "Raleway", sans-serif;
 	font-size: 0.85em;
@@ -106,7 +133,7 @@ a.linkToCode {
 	color: #9403b8;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin-left: 10px;
+	margin-left: 15px;
 	font-family: "Raleway", sans-serif;
 	font-size: 0.85em;
 }
@@ -135,7 +162,7 @@ a.linkToHosted {
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-bottom: 100px;
-	margin-left: 10px;
+	margin-left: 15px;
 	font-family: "Raleway", sans-serif;
 	font-size: 0.85em;
 }
@@ -158,7 +185,7 @@ a.linkToHosted:hover {
 } */
 
 .aboutPersonal {
-	margin-left: 10px;
+	margin-left: 15px;
 	margin-bottom: 60px;
 	color: #a8a3a5;
 	font-family: "Raleway", sans-serif;
@@ -178,9 +205,18 @@ a.linkToHosted:hover {
 
 .modal {
 	width: 375px;
-	height: 400px;
+	height: 700px;
 	position: fixed;
-	top: 185px;
+	top: 25px;
+	padding: 12px;
+	background-color: white;
+}
+
+.highlanderModal {
+	width: 375px;
+	height: 250px;
+	position: fixed;
+	top: 25px;
 	padding: 12px;
 	background-color: white;
 }
@@ -191,4 +227,13 @@ a.linkToHosted:hover {
 	border-radius: 6px;
 	background-color: black;
 	color: white;
+}
+
+.modalImage {
+	width: 350px;
+	height: auto;
+}
+
+.modalVid {
+	margin-top: 15px;
 }
