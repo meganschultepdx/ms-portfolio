@@ -2,6 +2,8 @@ import React from "react";
 import UseModal from "./UseModal";
 import KingdomModal from "./KingdomModal";
 import HighlanderModal from "./HighlanderModal";
+import PartnerScraperModal from "./PartnerScraperModal";
+import PortlandFieldGuideModal from "./PortlandFieldGuideModal";
 
 const fieldguide2 = require("../assets/img/fieldguide2.png");
 const stephenkingdom = require("../assets/img/stephenkingdom.png");
@@ -11,10 +13,21 @@ const freefood = require("../assets/img/freefood.png");
 const hairsalon = require("../assets/img/hairsalon.png");
 
 const Projects = () => {
-	const { isShowing, isShown, toggle, highlanderToggle } = UseModal();
+	const {
+		isShowing,
+		isShown,
+		isShowed,
+		isDisplayed,
+		toggle,
+		highlanderToggle,
+		partnerScraperToggle,
+		fieldGuideToggle
+	} = UseModal();
 	return (
 		<div className="projects">
 			<h2 className="sectionLabel">projects</h2>
+
+			{/* the stephen kingdom */}
 			<h3 className="projectTitles">the stephen kingdom</h3>
 			<button onClick={toggle}>
 				<img
@@ -38,6 +51,7 @@ const Projects = () => {
 			</a>
 			<div className="spacer"></div>
 
+			{/* highlander Tap House */}
 			<h3 className="projectTitles">highlander tap house</h3>
 			<button onClick={highlanderToggle}>
 				<img
@@ -62,13 +76,20 @@ const Projects = () => {
 			</a>
 			<div className="spacer"></div>
 
+			{/* Partner Scraper Tool */}
 			<h3 className="projectTitles">partner scraper tool</h3>
 			<div className="imageBackground">
 				<div className="whiteImageBackground">
-					<img
-						src={PartnerScraperPic}
-						className="screenShot"
-						alt="screen shots of app"
+					<button onClick={partnerScraperToggle}>
+						<img
+							src={PartnerScraperPic}
+							className="screenShot"
+							alt="screen shots of app"
+						/>
+					</button>
+					<PartnerScraperModal
+						isShowed={isShowed}
+						hide={partnerScraperToggle}
 					/>
 				</div>
 			</div>
@@ -88,8 +109,20 @@ const Projects = () => {
 				view Code
 			</a>
 			<div className="spacer"></div>
+
+			{/* Portland field Guide */}
 			<h3 className="projectTitles">portland field guide</h3>
-			<img src={fieldguide2} alt="screen shots of app" className="screenShot" />
+			<button onClick={fieldGuideToggle}>
+				<img
+					src={fieldguide2}
+					alt="screen shots of app"
+					className="screenShot"
+				/>
+			</button>
+			<PortlandFieldGuideModal
+				isDisplayed={isDisplayed}
+				hide={fieldGuideToggle}
+			/>
 			<h4 className="stackUsed">Angular & Firebase web app</h4>
 			<p className="aboutProject">
 				This is a web application that allows users to search local native and
@@ -111,6 +144,8 @@ const Projects = () => {
 				view Code
 			</a>
 			<div className="spacer"></div>
+
+			{/* Alchemy Hair Salon */}
 			<h3 className="projectTitles">alchemy hair salon</h3>
 			<img src={hairsalon} alt="screen shots of app" className="screenShot" />
 			<h4 className="stackUsed">c# & MySql website</h4>
@@ -128,6 +163,8 @@ const Projects = () => {
 				view Code
 			</a>
 			<div className="spacer"></div>
+
+			{/* free food finder */}
 			<h3 className="projectTitles">pdx free food finder</h3>
 			<img src={freefood} alt="screen shots of app" className="screenShot" />
 			<h4 className="stackUsed">JavaScript & JQuery Website</h4>

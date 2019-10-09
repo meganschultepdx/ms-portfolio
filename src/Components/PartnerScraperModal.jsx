@@ -3,10 +3,10 @@ import ReactDOM from "react-dom";
 import { Player } from "video-react";
 import "video-react/dist/video-react.css";
 
-const HighlanderTapHouseVid = require("../assets/img/HighlanderTapHouse.mov");
+const PartnerScraperVid = require("../assets/img/PartnerScraper.mov");
 
-const HighlanderModal = ({ isShown, hide }) =>
-	isShown
+const PartnerScraperModal = ({ isShowed, hide }) =>
+	isShowed
 		? ReactDOM.createPortal(
 				<React.Fragment>
 					<div className="modal-overlay" />
@@ -17,7 +17,7 @@ const HighlanderModal = ({ isShown, hide }) =>
 						tabIndex={-1}
 						role="dialog"
 					>
-						<div className="vidModal">
+						<div className="partnerScraperModal">
 							<div className="modal-header">
 								<button
 									type="button"
@@ -33,7 +33,7 @@ const HighlanderModal = ({ isShown, hide }) =>
 								className="modalVid"
 								playsInline
 								poster="/assets/img/highlander"
-								src={HighlanderTapHouseVid}
+								src={PartnerScraperVid}
 							/>
 						</div>
 					</div>
@@ -42,4 +42,4 @@ const HighlanderModal = ({ isShown, hide }) =>
 		  )
 		: null;
 
-export default HighlanderModal;
+export default PartnerScraperModal;

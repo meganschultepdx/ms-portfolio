@@ -212,11 +212,29 @@ a.linkToHosted:hover {
 	background-color: white;
 }
 
-.highlanderModal {
+.vidModal {
 	width: 375px;
 	height: 250px;
 	position: fixed;
 	top: 25px;
+	padding: 12px;
+	background-color: white;
+}
+
+.partnerScraperModal {
+	width: 375px;
+	height: 275px;
+	position: fixed;
+	top: 25px;
+	padding: 12px;
+	background-color: white;
+}
+
+.fieldGuideModal {
+	width: 375px;
+	height: 670px;
+	position: fixed;
+	top: 0;
 	padding: 12px;
 	background-color: white;
 }
@@ -236,4 +254,8 @@ a.linkToHosted:hover {
 
 .modalVid {
 	margin-top: 15px;
+}
+
+.fieldGuideVid {
+	margin-top: 10px;
 }

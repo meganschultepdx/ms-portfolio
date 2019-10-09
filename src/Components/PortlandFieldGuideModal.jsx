@@ -3,10 +3,10 @@ import ReactDOM from "react-dom";
 import { Player } from "video-react";
 import "video-react/dist/video-react.css";
 
-const HighlanderTapHouseVid = require("../assets/img/HighlanderTapHouse.mov");
+const PortlandFieldGuideVid = require("../assets/img/PortlandFieldGuide.mov");
 
-const HighlanderModal = ({ isShown, hide }) =>
-	isShown
+const PortlandFieldGuideModal = ({ isDisplayed, hide }) =>
+	isDisplayed
 		? ReactDOM.createPortal(
 				<React.Fragment>
 					<div className="modal-overlay" />
@@ -17,7 +17,7 @@ const HighlanderModal = ({ isShown, hide }) =>
 						tabIndex={-1}
 						role="dialog"
 					>
-						<div className="vidModal">
+						<div className="fieldGuideModal">
 							<div className="modal-header">
 								<button
 									type="button"
@@ -30,10 +30,10 @@ const HighlanderModal = ({ isShown, hide }) =>
 								</button>
 							</div>
 							<Player
-								className="modalVid"
+								className="fieldGuideVid"
 								playsInline
 								poster="/assets/img/highlander"
-								src={HighlanderTapHouseVid}
+								src={PortlandFieldGuideVid}
 							/>
 						</div>
 					</div>
@@ -42,4 +42,4 @@ const HighlanderModal = ({ isShown, hide }) =>
 		  )
 		: null;
 
-export default HighlanderModal;
+export default PortlandFieldGuideModal;

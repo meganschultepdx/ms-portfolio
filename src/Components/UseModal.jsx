@@ -3,6 +3,8 @@ import { useState } from "react";
 const useModal = () => {
 	const [isShowing, setIsShowing] = useState(false);
 	const [isShown, setIsShown] = useState(false);
+	const [isShowed, setIsShowed] = useState(false);
+	const [isDisplayed, setIsDisplayed] = useState(false);
 
 	function toggle() {
 		setIsShowing(!isShowing);
@@ -12,11 +14,23 @@ const useModal = () => {
 		setIsShown(!isShown);
 	}
 
+	function partnerScraperToggle() {
+		setIsShowed(!isShowed);
+	}
+
+	function fieldGuideToggle() {
+		setIsDisplayed(!isDisplayed);
+	}
+
 	return {
 		isShowing,
 		isShown,
+		isShowed,
+		isDisplayed,
 		toggle,
-		highlanderToggle
+		highlanderToggle,
+		partnerScraperToggle,
+		fieldGuideToggle
 	};
 };
 
