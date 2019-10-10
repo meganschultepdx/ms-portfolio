@@ -59,11 +59,16 @@ const Projects = () => {
 			{/* highlander Tap House */}
 			<h3 className="projectTitles">highlander tap house</h3>
 			<button onClick={highlanderToggle}>
-				<img
-					src={highlander}
-					alt="screen shots of app"
-					className="screenShot"
-				/>
+				<div className="container">
+					<img
+						src={highlander}
+						alt="screen shots of app"
+						className="screenShot"
+					/>
+					<div className="middle">
+						<div className="textOnHover">click for more views of app</div>
+					</div>
+				</div>
 			</button>
 			<HighlanderModal isShown={isShown} hide={highlanderToggle} />
 			<h4 className="stackUsed">React web app</h4>
@@ -86,11 +91,16 @@ const Projects = () => {
 			<div className="imageBackground">
 				<div className="whiteImageBackground">
 					<button onClick={partnerScraperToggle}>
-						<img
-							src={PartnerScraperPic}
-							className="screenShot"
-							alt="screen shots of app"
-						/>
+						<div className="container">
+							<img
+								src={PartnerScraperPic}
+								className="screenShot"
+								alt="screen shots of app"
+							/>
+							<div className="middle">
+								<div className="textOnHover">click for more views of app</div>
+							</div>
+						</div>
 					</button>
 					<PartnerScraperModal
 						isShowed={isShowed}
@@ -118,11 +128,16 @@ const Projects = () => {
 			{/* Portland field Guide */}
 			<h3 className="projectTitles">portland field guide</h3>
 			<button onClick={fieldGuideToggle}>
-				<img
-					src={fieldguide2}
-					alt="screen shots of app"
-					className="screenShot"
-				/>
+				<div className="container">
+					<img
+						src={fieldguide2}
+						alt="screen shots of app"
+						className="screenShot"
+					/>
+					<div className="middle">
+						<div className="textOnHover">click for more views of app</div>
+					</div>
+				</div>
 			</button>
 			<PortlandFieldGuideModal
 				isDisplayed={isDisplayed}
@@ -152,7 +167,9 @@ const Projects = () => {
 
 			{/* Alchemy Hair Salon */}
 			<h3 className="projectTitles">alchemy hair salon</h3>
-			<img src={hairsalon} alt="screen shots of app" className="screenShot" />
+			<div className="alchemyContainer">
+				<img src={hairsalon} alt="screen shots of app" className="screenShot" />
+			</div>
 			<h4 className="stackUsed">c# & MySql website</h4>
 			<p className="aboutProject">
 				This web application allows the user to check the surf report and
@@ -171,7 +188,9 @@ const Projects = () => {
 
 			{/* free food finder */}
 			<h3 className="projectTitles">pdx free food finder</h3>
-			<img src={freefood} alt="screen shots of app" className="screenShot" />
+			<div className="container">
+				<img src={freefood} alt="screen shots of app" className="screenShot" />
+			</div>
 			<h4 className="stackUsed">JavaScript & JQuery Website</h4>
 			<p className="aboutProject">
 				This is a website that helps users easily locate free food-pantries and

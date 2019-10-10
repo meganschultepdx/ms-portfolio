@@ -77,10 +77,23 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
+/* project images, hover text and modals */
+
+button {
+	background-color: rgb(10, 10, 10);
+	border-color: rgb(10, 10, 10);
+}
+
 .container {
-	width: 100%;
-	padding-right: 10px;
-	padding-left: 10px;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.alchemyContainer {
+	margin-right: 15px;
+	margin-left: 15px;
 	margin-top: 10px;
 }
 
@@ -96,7 +109,18 @@ body {
 	transition: 0.5s ease;
 	opacity: 0;
 	position: absolute;
-	top: 83%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.highlanderMiddle {
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 908px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -109,15 +133,20 @@ body {
 
 .container:hover .middle {
 	opacity: 0.8;
+}
+
+.container:hover highlanderMiddle {
+	opacity: 0.8;
 	border-radius: 8px;
 }
 
 .textOnHover {
 	background-color: #926e03;
 	color: black;
-	font-size: 2em;
+	font-size: 1.5em;
 	padding: 16px 32px;
 	text-transform: uppercase;
+	border-radius: 4px;
 }
 
 .imageClick {
@@ -126,6 +155,7 @@ body {
 	margin-right: 20px;
 	text-align: right;
 }
+/* end project images, hover text and modals */
 
 .stackUsed {
 	margin-left: 15px;
@@ -144,7 +174,7 @@ body {
 	font-size: 0.85em;
 }
 
-/* unvisited link */
+/* link to github code */
 a.linkToCode {
 	color: #9403b8;
 	text-transform: uppercase;
@@ -154,7 +184,7 @@ a.linkToCode {
 	font-size: 0.85em;
 }
 
-/* mouse over link */
+/* mouse over link to github code*/
 a.linkToCode:hover {
 	color: #670380;
 	font-size: 1.25em;
@@ -172,7 +202,7 @@ a.linkToCode:hover {
 	text-decoration: none;
 } */
 
-/* unvisited link */
+/* link to hosted sites */
 a.linkToHosted {
 	color: goldenrod;
 	text-transform: uppercase;
@@ -183,7 +213,7 @@ a.linkToHosted {
 	font-size: 0.85em;
 }
 
-/* mouse over link */
+/* mouse over link to hosted sites */
 a.linkToHosted:hover {
 	color: #926e03;
 	font-size: 1.25em;
