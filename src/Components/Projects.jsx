@@ -44,8 +44,8 @@ const Projects = () => {
 			<KingdomModal isShowing={isShowing} hide={toggle} />
 			<h4 className="stackUsed">React Native App with Firebase as BaaS</h4>
 			<p className="aboutProject">
-				This mobile app will be a database for information on Stephen King
-				related movies and mini-series. It will provide users with information
+				This mobile app is a database reference of all Stephen King related
+				movies and mini-series.
 			</p>
 			<a
 				href="https://github.com/meganschultepdx/the-stephen-kingdom"
@@ -73,9 +73,9 @@ const Projects = () => {
 			<HighlanderModal isShown={isShown} hide={highlanderToggle} />
 			<h4 className="stackUsed">React web app</h4>
 			<p className="aboutProject">
-				This web application is designed to be both a tap room beer list for
-				customers and a keg tracking app for the eployees of said tap room. It
-				is created using React and supporting tools.
+				This is a website created for a fictional tap house with both cutstomer
+				facing pages and an employee page that allows for adding of new kegs and
+				tracking pints left in kegs.
 			</p>
 			<a
 				href="https://github.com/meganschultepdx/highlander-tap-house"
@@ -112,9 +112,10 @@ const Projects = () => {
 				react with hooks & c#/EF Core/Sqlite web app
 			</h4>
 			<p className="aboutProject">
-				This was an internal company tool created during a five week internship.
-				The back-end is built as an independent API with C#/EF Core/Sqlite; the
-				front-end is built in React with Hooks and Typescript and makes get
+				This was an internal company tool created during a five week internship
+				that is designed to call partner APIs to determine whether a submitted
+				album is live on their site. The backend is built as an API with a
+				database that is called by the project's front-end to display data.
 			</p>
 			<a
 				href="https://github.com/meganschultepdx/Epicodus-Internship-Project"
@@ -145,9 +146,8 @@ const Projects = () => {
 			/>
 			<h4 className="stackUsed">Angular & Firebase web app</h4>
 			<p className="aboutProject">
-				This is a web application that allows users to search local native and
-				invasive plants in Portland, OR. This app was inspired by the love of
-				plants and the desire to know them better. It is very satisfying to be
+				This is a web app that was built as part of a group project with mobile
+				first design. It provides users with a database of local Portland flora.
 			</p>
 			<a
 				href="https://portland-field-guide.firebaseapp.com/"
@@ -172,10 +172,9 @@ const Projects = () => {
 			</div>
 			<h4 className="stackUsed">c# & MySql website</h4>
 			<p className="aboutProject">
-				This web application allows the user to check the surf report and
-				weather for three main surf spots on the Oregon coast. It prpovides only
-				the most essential information needed to decide whether the conditions
-				are good for surfing at that particular location at that particular time
+				This web application was built as an independent school project and is a
+				website for a fictional hair salon. It uses a MySql database to provide
+				an editable list of stylists, clients and specialties.
 			</p>
 			<a
 				href="https://github.com/meganschultepdx/HairSalon"
@@ -193,9 +192,9 @@ const Projects = () => {
 			</div>
 			<h4 className="stackUsed">JavaScript & JQuery Website</h4>
 			<p className="aboutProject">
-				This is a website that helps users easily locate free food-pantries and
-				meals across Portland, OR. As such, we call it "Free Food Finder PDX"
-				(FFF-PDX). The landing page displays the FFF-PDX logo, a menu bar and a
+				This is a website that helps users easily locate free food-pantries,
+				meal and urban foraging opportunities across Portland. It was built as a
+				school group project in Epicodus's intro to coding course.
 			</p>
 			<a
 				href="https://meganschultepdx.github.io/free-food-finder/index.html"

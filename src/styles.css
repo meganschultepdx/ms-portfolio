@@ -55,9 +55,21 @@ body {
 }
 
 .about {
-	margin: 20px;
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 30px;
 	color: #a8a3a5;
 	font-family: "Raleway", sans-serif;
+	line-height: 1.1;
+}
+
+.aboutParagraphs {
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+.aboutParagraphs.two {
+	margin-left: 20px;
 }
 
 .sectionLabel {
@@ -231,10 +243,15 @@ a.linkToHosted:hover {
 } */
 
 .aboutPersonal {
-	margin-left: 15px;
+	/* margin-left: 15px; */
 	margin-bottom: 60px;
 	color: #a8a3a5;
 	font-family: "Raleway", sans-serif;
+}
+
+.personalParagraph {
+	margin: 20px 35px 15px 35px;
+	text-align: justify;
 }
 
 .footer {

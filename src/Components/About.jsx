@@ -3,15 +3,18 @@ import React from "react";
 const About = () => {
 	return (
 		<div className="about">
-			<p>
-				I am passionate about bringing beautiful designs and interactive
-				intuitive user experiences to life!
+			<p className="aboutParagraphs">
+				I am full-stack developer who is most passionate about bringing
+				beautiful designs and interactive, intuitive user experiences to life!
 			</p>
-			<p>
-				I have an art and design background that makes me excited to create
-				beautiful front-end web applications in JavaScript, React, Angular, CSS,
-				SASS and more. I have experience in C#, .NET and Entity Framework which
-				has provided me with extra. excited about continuous learning{" "}
+			{/* <p className="aboutParagraphs  two">
+				I love programming in JavaScript and am currently most excited about
+				React with Hooks and Context and the clean, powerful code you can write
+				with it.
+			</p> */}
+			<p className="aboutParagraphs">
+				I can't stop trying to learn everything at once and I am so eager to
+				continue growing in my new career!
 			</p>
 		</div>
 	);
