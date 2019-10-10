@@ -30,11 +30,16 @@ const Projects = () => {
 			{/* the stephen kingdom */}
 			<h3 className="projectTitles">the stephen kingdom</h3>
 			<button onClick={toggle}>
-				<img
-					src={stephenkingdom}
-					alt="screen shots of app"
-					className="screenShot"
-				/>
+				<div className="container">
+					<img
+						src={stephenkingdom}
+						alt="screen shots of app"
+						className="screenShot"
+					/>
+					<div className="middle">
+						<div className="textOnHover">click for more views of app</div>
+					</div>
+				</div>
 			</button>
 			<KingdomModal isShowing={isShowing} hide={toggle} />
 			<h4 className="stackUsed">React Native App with Firebase as BaaS</h4>

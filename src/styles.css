@@ -77,32 +77,48 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
-/* .container {
-	width: 100%;
-} */
-
-.screenShot {
+.container {
 	width: 100%;
 	padding-right: 10px;
 	padding-left: 10px;
 	margin-top: 10px;
 }
 
-/* .overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
+.screenShot {
 	width: 100%;
-	opacity: 0;
+	height: auto;
+	opacity: 1;
 	transition: 0.5s ease;
+	backface-visibility: hidden;
 }
 
-.screenShot:hover .overlay {
-	opacity: 1;
-} */
+.middle {
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 83%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.container:hover .screenShot {
+	opacity: 0.5;
+}
+
+.container:hover .middle {
+	opacity: 0.8;
+	border-radius: 8px;
+}
+
+.textOnHover {
+	background-color: #926e03;
+	color: black;
+	font-size: 2em;
+	padding: 16px 32px;
+	text-transform: uppercase;
+}
 
 .imageClick {
 	font-size: 0.5em;
