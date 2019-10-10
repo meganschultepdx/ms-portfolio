@@ -1,5 +1,7 @@
 import React from "react";
 
+const gibby = require("../assets/img/gibby.jpg");
+
 const AboutPersonal = () => {
 	return (
 		<div className="aboutPersonal">
@@ -11,6 +13,9 @@ const AboutPersonal = () => {
 				chainmaille jewelry or hanging out with friends in my neighborhood of St
 				Johns.
 			</p>
+			<div className="gibbyContainer">
+				<img src={gibby} alt="my dog" className="gibby" />
+			</div>
 		</div>
 	);
 };

@@ -17,7 +17,7 @@ const PartnerScraperModal = ({ isShowed, hide }) =>
 						tabIndex={-1}
 						role="dialog"
 					>
-						<div className="partnerScraperModal">
+						<div className="vidModal">
 							<div className="modal-header">
 								<button
 									type="button"

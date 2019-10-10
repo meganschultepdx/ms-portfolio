@@ -42,10 +42,12 @@ const Projects = () => {
 				</div>
 			</button>
 			<KingdomModal isShowing={isShowing} hide={toggle} />
-			<h4 className="stackUsed">React Native App with Firebase as BaaS</h4>
+			<h4 className="stackUsed">
+				React Native App with Expo & Firebase as BaaS
+			</h4>
 			<p className="aboutProject">
 				This mobile app is a database reference of all Stephen King related
-				movies and mini-series.
+				movies and mini-series. It was built as my capstone project for school.
 			</p>
 			<a
 				href="https://github.com/meganschultepdx/the-stephen-kingdom"
@@ -159,7 +161,7 @@ const Projects = () => {
 			<a
 				href="https://github.com/meganschultepdx/Portland-field-guide"
 				target="blank"
-				className="linkToCode"
+				className="linkToCode linkToCodeAlt"
 			>
 				view Code
 			</a>
@@ -206,7 +208,7 @@ const Projects = () => {
 			<a
 				href="https://github.com/meganschultepdx/free-food-finder"
 				target="blank"
-				className="linkToCode"
+				className="linkToCode linkToCodeAlt"
 			>
 				view Code
 			</a>

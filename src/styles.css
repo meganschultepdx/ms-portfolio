@@ -25,7 +25,7 @@ body {
 	padding-top: 25px;
 	font-size: 2.4em;
 	font-family: "Jura", sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 1px;
 }
 
@@ -36,7 +36,7 @@ body {
 	font-size: 1em;
 	color: #926e03;
 	font-family: "Jura", sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 1px;
 }
 
@@ -63,30 +63,33 @@ body {
 	line-height: 1.1;
 }
 
+.about:hover {
+	font-size: 1.1em;
+	margin: 25px 25px 15px 25px;
+}
+
 .aboutParagraphs {
 	margin-bottom: 15px;
 	text-align: justify;
 }
 
-.aboutParagraphs.two {
-	margin-left: 20px;
-}
-
 .sectionLabel {
-	color: #a8a3a5;
+	color: #666154;
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 30px;
 	font-family: "Raleway", sans-serif;
 	letter-spacing: 2px;
+	font-weight: 500;
 }
 
 .projectTitles {
 	text-transform: uppercase;
 	padding-top: 20px;
-	margin-left: 15px;
+	margin-left: 20px;
 	color: #666154;
 	font-family: "Raleway", sans-serif;
+	font-weight: 500;
 }
 
 /* project images, hover text and modals */
@@ -94,18 +97,19 @@ body {
 button {
 	background-color: rgb(10, 10, 10);
 	border-color: rgb(10, 10, 10);
+	width: 100%;
 }
 
 .container {
-	margin-right: 8px;
-	margin-left: 8px;
+	margin-right: 10px;
+	margin-left: 10px;
 	margin-top: 10px;
 	position: relative;
 }
 
 .alchemyContainer {
-	margin-right: 15px;
-	margin-left: 15px;
+	margin-right: 22px;
+	margin-left: 22px;
 	margin-top: 10px;
 }
 
@@ -128,28 +132,12 @@ button {
 	text-align: center;
 }
 
-.highlanderMiddle {
-	transition: 0.5s ease;
-	opacity: 0;
-	position: absolute;
-	top: 908px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-align: center;
-}
-
 .container:hover .screenShot {
 	opacity: 0.5;
 }
 
 .container:hover .middle {
 	opacity: 0.8;
-}
-
-.container:hover highlanderMiddle {
-	opacity: 0.8;
-	border-radius: 8px;
 }
 
 .textOnHover {
@@ -170,17 +158,21 @@ button {
 /* end project images, hover text and modals */
 
 .stackUsed {
-	margin-left: 15px;
+	margin-left: 5.5%;
+	margin-right: 5.5%;
 	text-transform: uppercase;
 	margin-top: 10px;
 	color: #4e4a40;
 	font-family: "Raleway", sans-serif;
+	font-weight: 500;
 }
 
 .aboutProject {
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin-left: 15px;
+	margin-left: 5.5%;
+	margin-right: 5.5%;
+	text-align: justify;
 	color: #a8a3a5;
 	font-family: "Raleway", sans-serif;
 	font-size: 0.85em;
@@ -191,7 +183,7 @@ a.linkToCode {
 	color: #9403b8;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin-left: 15px;
+	margin-left: 20px;
 	font-family: "Raleway", sans-serif;
 	font-size: 0.85em;
 }
@@ -207,20 +199,13 @@ a.linkToCode:hover {
 	height: 35px;
 }
 
-/* selected link */
-/* .linkToCode a:active {
-	color: blue;
-	text-transform: uppercase;
-	text-decoration: none;
-} */
-
 /* link to hosted sites */
 a.linkToHosted {
 	color: goldenrod;
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-bottom: 100px;
-	margin-left: 15px;
+	margin-left: 20px;
 	font-family: "Raleway", sans-serif;
 	font-size: 0.85em;
 }
@@ -232,26 +217,34 @@ a.linkToHosted:hover {
 	transition: color 0.5s, font 0.5s;
 }
 
-/* .imageBackground {
-	margin-left: auto;
-	margin-right: auto;
-	width: 96%;
-}
-
-.whiteImageBackground {
-	background-color: white;
-} */
-
 .aboutPersonal {
-	/* margin-left: 15px; */
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	color: #a8a3a5;
 	font-family: "Raleway", sans-serif;
 }
 
 .personalParagraph {
-	margin: 20px 35px 15px 35px;
+	margin: 15px 35px 20px 35px;
 	text-align: justify;
+	line-height: 1.1;
+}
+
+.aboutPersonal:hover .personalParagraph {
+	font-size: 1.1em;
+	margin: 15px 25px 15px 25px;
+}
+
+.gibbyContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.gibby {
+	width: 35%;
+	height: auto;
+	border-radius: 6px;
 }
 
 .footer {
@@ -262,45 +255,40 @@ a.linkToHosted:hover {
 	text-transform: uppercase;
 	padding: 15px;
 	font-size: 1em;
-	font-weight: lighter;
+	font-weight: 500px;
 	color: #926e03;
 	font-family: "Jura", sans-serif;
 }
 
 .modal {
 	width: 375px;
-	height: 700px;
+	height: auto;
 	position: fixed;
 	top: 25px;
 	padding: 12px;
-	background-color: white;
+	background-color: rgb(199, 196, 196);
+	max-height: calc(115vh - 210px);
+	overflow-y: auto;
 }
 
 .vidModal {
 	width: 375px;
-	height: 250px;
+	height: auto;
 	position: fixed;
 	top: 25px;
 	padding: 12px;
-	background-color: white;
-}
-
-.partnerScraperModal {
-	width: 375px;
-	height: 275px;
-	position: fixed;
-	top: 25px;
-	padding: 12px;
-	background-color: white;
+	border-radius: 4px;
+	background-color: rgb(199, 196, 196);
 }
 
 .fieldGuideModal {
-	width: 375px;
-	height: 670px;
+	width: 350px;
+	height: auto;
 	position: fixed;
 	top: 0;
 	padding: 12px;
-	background-color: white;
+	border-radius: 4px;
+	background-color: rgb(199, 196, 196);
 }
 
 .modal-close-button {
@@ -312,8 +300,10 @@ a.linkToHosted:hover {
 }
 
 .modalImage {
-	width: 350px;
+	width: 80%;
 	height: auto;
+	margin-left: 10%;
+	border-radius: 4px;
 }
 
 .modalVid {
@@ -322,4 +312,317 @@ a.linkToHosted:hover {
 
 .fieldGuideVid {
 	margin-top: 10px;
+}
+
+/* Media query for tablets */
+/* ///////////////////////////// /
+//////////////////////////
+/////////////////////
+///////////////////////
+//////////////////////
+//////////////////////
+/////////////////////////
+///////////////////////
+//////////////////////*/
+
+@media screen and (min-width: 768px) {
+	.header {
+		height: 235px;
+	}
+
+	#titleName {
+		padding-bottom: 15px;
+		padding-top: 55px;
+		font-size: 3em;
+	}
+
+	#titleDescription {
+		padding-bottom: 35px;
+		font-size: 1.2em;
+	}
+
+	.about {
+		margin: 50px 18% 40px 18%;
+		font-size: 1.1em;
+		line-height: 1.2;
+	}
+
+	.about:hover {
+		font-size: 1.3em;
+		margin: 50px 13% 30px 13%;
+	}
+
+	.aboutParagraphs {
+		margin-bottom: 20px;
+	}
+
+	.projectTitles {
+		padding-top: 30px;
+		margin-left: 11%;
+		font-size: 1.2em;
+	}
+
+	/* project images, hover text and modals */
+
+	.container {
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+
+	.alchemyContainer {
+		margin-right: 11%;
+		margin-left: 11%;
+	}
+
+	.stackUsed {
+		margin-left: 11%;
+		font-size: 1.2em;
+	}
+
+	.aboutProject {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-left: 11%;
+		margin-right: 11%;
+		font-size: 1em;
+	}
+
+	/* link to github code */
+	a.linkToCode {
+		margin-left: 11%;
+		font-size: 1em;
+	}
+
+	a.linkToCodeAlt {
+		margin-left: 15px;
+		font-size: 1em;
+	}
+
+	/* mouse over link to github code*/
+	a.linkToCode:hover {
+		font-size: 1.5em;
+	}
+
+	a.linkToCodeAlt:hover {
+		font-size: 1.5em;
+	}
+
+	.spacer {
+		height: 55px;
+	}
+
+	/* link to hosted sites */
+	a.linkToHosted {
+		margin-left: 11%;
+		font-size: 1em;
+	}
+
+	/* mouse over link to hosted sites */
+	a.linkToHosted:hover {
+		font-size: 1.5em;
+	}
+
+	.personalParagraph {
+		margin: 50px 18% 20px 18%;
+		font-size: 1.1em;
+		line-height: 1.2;
+	}
+
+	.aboutPersonal:hover .personalParagraph {
+		font-size: 1.3em;
+		margin: 50px 13% 20px 13%;
+	}
+
+	.gibby {
+		width: 25%;
+	}
+
+	.footer {
+		height: 100px;
+		padding: 40px;
+	}
+
+	/* modals for projects */
+
+	.modal {
+		width: 760px;
+		height: 700px;
+		max-height: calc(125vh - 210px);
+		overflow-y: auto;
+	}
+
+	.vidModal {
+		width: 95%;
+		height: auto;
+		margin: 2%;
+	}
+
+	.fieldGuideModal {
+		width: 350px;
+		height: auto;
+	}
+
+	.modalImage {
+		width: 80%;
+		height: auto;
+		margin-left: 10%;
+		border-radius: 4px;
+	}
+}
+
+/* Media query for laptops */
+/* ///////////////////////////// /
+//////////////////////////
+/////////////////////
+///////////////////////
+//////////////////////
+//////////////////////
+/////////////////////////
+///////////////////////
+//////////////////////*/
+
+@media screen and (min-width: 1200px) {
+	.header {
+		height: 285px;
+	}
+
+	#titleName {
+		padding-bottom: 20px;
+		padding-top: 70px;
+		font-size: 4em;
+	}
+
+	#titleDescription {
+		padding-bottom: 35px;
+		font-size: 1.6em;
+	}
+
+	.about {
+		margin: 75px 25% 85px 25%;
+		font-size: 1.3em;
+	}
+
+	.about:hover {
+		font-size: 1.5em;
+		margin: 75px 20% 65px 20%;
+	}
+
+	.sectionLabel {
+		font-size: 1.8em;
+	}
+
+	.projectTitles {
+		margin-left: 14%;
+		font-size: 1.5em;
+	}
+
+	/* project images, hover text and modals */
+
+	.container {
+		margin-right: 13%;
+		margin-left: 13%;
+	}
+
+	.alchemyContainer {
+		margin-right: 13%;
+		margin-left: 13%;
+	}
+
+	.textOnHover {
+		background-color: #926e03;
+		color: black;
+		font-size: 1.8em;
+		padding: 20px 38px;
+		text-transform: uppercase;
+		border-radius: 4px;
+	}
+
+	.stackUsed {
+		margin-left: 14%;
+		font-size: 1.5em;
+	}
+
+	.aboutProject {
+		margin-left: 14%;
+		margin-right: 20%;
+		font-size: 1.1em;
+	}
+
+	/* link to github code */
+	a.linkToCode {
+		margin-left: 14%;
+		font-size: 1.1em;
+	}
+
+	a.linkToCodeAlt {
+		margin-left: 20px;
+		font-size: 1.1em;
+	}
+
+	/* mouse over link to github code*/
+	a.linkToCode:hover {
+		font-size: 1.5em;
+	}
+
+	a.linkToCodeAlt:hover {
+		font-size: 1.5em;
+	}
+
+	/* link to hosted sites */
+	a.linkToHosted {
+		margin-left: 14%;
+		font-size: 1.1em;
+	}
+
+	/* mouse over link to hosted sites */
+	a.linkToHosted:hover {
+		font-size: 1.5em;
+	}
+
+	.personalParagraph {
+		margin: 50px 25% 25px 25%;
+		font-size: 1.3em;
+	}
+
+	.aboutPersonal:hover .personalParagraph {
+		font-size: 1.5em;
+		margin: 50px 20% 25px 20%;
+	}
+
+	.gibby {
+		width: 20%;
+		margin-bottom: 30px;
+	}
+
+	.footer {
+		height: 100px;
+		padding: 40px;
+	}
+
+	/* modals for projects */
+
+	.modal {
+		width: 760px;
+		height: 700px;
+		max-height: calc(125vh - 210px);
+		overflow-y: auto;
+	}
+
+	.vidModal {
+		width: 95%;
+		height: auto;
+		margin: 2%;
+	}
+
+	.fieldGuideModal {
+		width: 350px;
+		height: auto;
+	}
+
+	.modalImage {
+		width: 80%;
+		height: auto;
+		margin-left: 10%;
+		border-radius: 4px;
+	}
 }
