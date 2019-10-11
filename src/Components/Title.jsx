@@ -4,8 +4,20 @@ import "../../src/styles.css";
 const Title = () => {
 	return (
 		<div className="title">
-			<h1 id="titleName">megan schulte</h1>
-			<h2 id="titleDescription">web developer in portland oregon</h2>
+			<div className="titleName">
+				<h1 id="titleFirstName">Megan</h1>
+				<h1 id="titleLastName">
+					<sp className="lastNameSpacer">.</sp>
+					Schulte
+				</h1>
+			</div>
+			<div className="titleDescription">
+				<h2 id="titleDescription">
+					web developer
+					<br />
+					portland oregon
+				</h2>
+			</div>
 		</div>
 	);
 };

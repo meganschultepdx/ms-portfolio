@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import Arkipelago from "./assets/fonts/Arkipelago.otf";
+import Muster from "./assets/fonts/Muster.otf";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
