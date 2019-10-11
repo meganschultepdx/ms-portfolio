@@ -431,9 +431,10 @@ a.linkToHosted:hover {
 }
 
 .about {
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 90px;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 1.1em;
+	margin-top: 110px;
 	color: #a8a3a5;
 	font-family: "Raleway", sans-serif;
 	line-height: 1.1;
@@ -645,7 +646,7 @@ a.linkToHosted:hover {
 	}
 
 	.about {
-		margin: 200px 20% 40px 20%;
+		margin: 220px 20% 40px 20%;
 		font-size: 1.2em;
 		line-height: 1.2;
 	}
@@ -844,7 +845,7 @@ a.linkToHosted:hover {
 	}
 
 	.about {
-		margin: 130px 27% 65px 27%;
+		margin: 140px 27% 65px 27%;
 		font-size: 1.3em;
 	}
 
@@ -878,6 +879,7 @@ a.linkToHosted:hover {
 		/* width: 74%; */
 		width: 60%;
 	}
+
 	.textOnHover {
 		background-color: #926e03;
 		color: black;
