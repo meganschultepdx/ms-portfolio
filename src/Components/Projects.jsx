@@ -171,7 +171,11 @@ const Projects = () => {
 			{/* Alchemy Hair Salon */}
 			<h3 className="projectTitles">alchemy hair salon</h3>
 			<div className="alchemyContainer">
-				<img src={hairsalon} alt="screen shots of app" className="screenShot" />
+				<img
+					src={hairsalon}
+					alt="screen shots of app"
+					className="alchemyScreenShot"
+				/>
 			</div>
 			<h4 className="stackUsed">c# & MySql website</h4>
 			<p className="aboutProject">
@@ -191,7 +195,11 @@ const Projects = () => {
 			{/* free food finder */}
 			<h3 className="projectTitles">pdx free food finder</h3>
 			<div className="container">
-				<img src={freefood} alt="screen shots of app" className="screenShot" />
+				<img
+					src={freefood}
+					alt="screen shots of app"
+					className="freeFoodScreenShot"
+				/>
 			</div>
 			<h4 className="stackUsed">JavaScript & JQuery Website</h4>
 			<p className="aboutProject">

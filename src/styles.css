@@ -101,24 +101,37 @@ button {
 }
 
 .container {
-	margin-right: 10px;
-	margin-left: 10px;
+	width: 100%;
 	margin-top: 10px;
 	position: relative;
+	display: flex;
+	justify-content: center;
 }
 
 .alchemyContainer {
-	margin-right: 22px;
-	margin-left: 22px;
+	width: 100%;
 	margin-top: 10px;
+	position: relative;
+	display: flex;
+	justify-content: center;
 }
 
 .screenShot {
-	width: 100%;
+	width: 94%;
 	height: auto;
 	opacity: 1;
 	transition: 0.5s ease;
 	backface-visibility: hidden;
+}
+
+.alchemyScreenShot {
+	width: 90%;
+	height: auto;
+}
+
+.freeFoodScreenShot {
+	width: 94%;
+	height: auto;
 }
 
 .middle {
@@ -183,7 +196,7 @@ a.linkToCode {
 	color: #9403b8;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin-left: 20px;
+	margin-left: 5.5%;
 	font-family: "Raleway", sans-serif;
 	font-size: 0.85em;
 }
@@ -205,7 +218,7 @@ a.linkToHosted {
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-bottom: 100px;
-	margin-left: 20px;
+	margin-left: 5.5%;
 	font-family: "Raleway", sans-serif;
 	font-size: 0.85em;
 }
@@ -325,7 +338,7 @@ a.linkToHosted:hover {
 ///////////////////////
 //////////////////////*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
 	.header {
 		height: 235px;
 	}
@@ -364,14 +377,17 @@ a.linkToHosted:hover {
 
 	/* project images, hover text and modals */
 
-	.container {
-		margin-right: 10%;
-		margin-left: 10%;
+	.screenShot {
+		width: 82%;
 	}
 
-	.alchemyContainer {
-		margin-right: 11%;
-		margin-left: 11%;
+	.alchemyScreenShot {
+		width: 80%;
+		height: auto;
+	}
+
+	.freeFoodScreenShot {
+		width: 82%;
 	}
 
 	.stackUsed {
@@ -497,6 +513,19 @@ a.linkToHosted:hover {
 		font-size: 1.6em;
 	}
 
+	.screenShot {
+		width: 74%;
+	}
+
+	.alchemyScreenShot {
+		width: 73%;
+		height: auto;
+	}
+
+	.freeFoodScreenShot {
+		width: 74%;
+	}
+
 	.about {
 		margin: 75px 25% 85px 25%;
 		font-size: 1.3em;
@@ -517,16 +546,6 @@ a.linkToHosted:hover {
 	}
 
 	/* project images, hover text and modals */
-
-	.container {
-		margin-right: 13%;
-		margin-left: 13%;
-	}
-
-	.alchemyContainer {
-		margin-right: 13%;
-		margin-left: 13%;
-	}
 
 	.textOnHover {
 		background-color: #926e03;
