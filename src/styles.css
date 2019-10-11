@@ -351,6 +351,225 @@ a.linkToHosted:hover {
 	margin-top: 10px;
 }
 
+/* Media query for 500
+//////////////////////////////
+////////////////////////////////
+////////////////////////////////
+////////////////////////////////
+////////////////////////////
+/////////////////////// */
+
+.header {
+	height: 190px;
+	background: rgba(255, 255, 255, 0.05);
+	width: 100%;
+}
+
+#titleFirstName {
+	color: #926e03;
+	font-size: 4.8em;
+	font-family: "Arkipelago", sans-serif;
+	font-weight: 500;
+	/* margin-bottom: -100px; */
+	font-family: "Muster", sans-serif;
+	font-weight: 500;
+	transform: rotate(-7grad);
+}
+
+#titleLastName {
+	color: #926e03;
+	font-size: 4.8em;
+	font-family: "Arkipelago", sans-serif;
+	font-weight: 500;
+	margin-top: -55px;
+	font-family: "Muster", sans-serif;
+	font-weight: 500;
+	transform: rotate(-7grad);
+}
+
+#titleDescription {
+	font-size: 0.9em;
+	color: #926e03;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: "Jura", sans-serif;
+	line-height: 0.9;
+}
+
+.lastNameSpacer {
+	opacity: 0;
+}
+
+.titleName {
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 5px;
+}
+
+.titleDescription {
+	margin-left: 60%;
+	margin-right: 5%;
+	margin-top: -78px;
+	z-index: 100;
+	padding-bottom: 74px;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.contact a {
+	color: #666154;
+}
+
+.contact a:hover {
+	color: #2c0413;
+	transition: color 0.5s;
+}
+
+.about {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 90px;
+	color: #a8a3a5;
+	font-family: "Raleway", sans-serif;
+	line-height: 1.1;
+}
+
+.aboutParagraphs {
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+.sectionLabel {
+	color: #666154;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 40px;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+.projectTitles {
+	padding-top: 30px;
+	margin-left: 16%;
+	font-size: 1.2em;
+}
+
+/* project images, hover text and modals */
+
+.screenShot {
+	width: 72%;
+}
+
+.alchemyScreenShot {
+	width: 70%;
+	height: auto;
+}
+
+.freeFoodScreenShot {
+	width: 72%;
+}
+
+.stackUsed {
+	margin-left: 16%;
+	font-size: 1.2em;
+}
+
+.aboutProject {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 16%;
+	margin-right: 16%;
+	font-size: 1em;
+}
+
+/* link to github code */
+a.linkToCode {
+	margin-left: 16%;
+	font-size: 1em;
+}
+
+a.linkToCodeAlt {
+	margin-left: 15px;
+	font-size: 1em;
+}
+
+/* mouse over link to github code*/
+a.linkToCode:hover {
+	font-size: 1.5em;
+}
+
+a.linkToCodeAlt:hover {
+	font-size: 1.5em;
+}
+
+.spacer {
+	height: 55px;
+}
+
+/* link to hosted sites */
+a.linkToHosted {
+	margin-left: 16%;
+	font-size: 1em;
+}
+
+/* mouse over link to hosted sites */
+a.linkToHosted:hover {
+	font-size: 1.5em;
+}
+
+.personalParagraph {
+	margin: 50px 18% 20px 18%;
+	font-size: 1.1em;
+	line-height: 1.2;
+}
+
+/* .aboutPersonal:hover .personalParagraph {
+  font-size: 1.3em;
+  margin: 50px 13% 20px 13%;
+} */
+
+.gibby {
+	width: 25%;
+}
+
+.footer {
+	height: 100px;
+	padding: 40px;
+}
+
+/* modals for projects */
+
+.modal {
+	width: 760px;
+	height: 700px;
+	max-height: calc(125vh - 210px);
+	overflow-y: auto;
+}
+
+.vidModal {
+	width: 95%;
+	height: auto;
+	margin: 2%;
+}
+
+.fieldGuideModal {
+	width: 350px;
+	height: auto;
+}
+
+.modalImage {
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	border-radius: 4px;
+}
+
 /* Media query for tablets */
 /* ///////////////////////////// /
 //////////////////////////
@@ -610,7 +829,7 @@ a.linkToHosted:hover {
 
 	.titleName {
 		display: inline-block;
-		margin-left: 30%;
+		margin-left: 28%;
 	}
 
 	.titleDescription {
@@ -620,8 +839,12 @@ a.linkToHosted:hover {
 		padding-bottom: 130px;
 	}
 
+	.contact {
+		width: 80%;
+	}
+
 	.about {
-		margin: 120px 27% 65px 27%;
+		margin: 130px 27% 65px 27%;
 		font-size: 1.3em;
 	}
 
