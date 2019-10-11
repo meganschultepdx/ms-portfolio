@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Player } from "video-react";
 import "video-react/dist/video-react.css";
+import "../../src/styles.css";
 
 const HighlanderTapHouseVid = require("../assets/img/HighlanderTapHouse.mov");
 

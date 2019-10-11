@@ -1,4 +1,5 @@
 import React from "react";
+import "../../src/styles.css";
 
 const gibby = require("../assets/img/gibby.jpg");
 

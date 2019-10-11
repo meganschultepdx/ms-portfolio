@@ -1,5 +1,4 @@
 import React from "react";
-// import "./styles.css";
 import HeaderT from "./Components/HeaderT";
 import About from "./Components/About";
 import Projects from "./Components/Projects";

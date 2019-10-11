@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "../../src/styles.css";
 
 const kingdomscreenshots = require("../assets/img/kingdomscreenshots.png");
 // const stephenkingdom = require("../assets/img/stephenkingdom.png");

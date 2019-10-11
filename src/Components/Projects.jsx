@@ -1,5 +1,6 @@
 import React from "react";
 import UseModal from "./UseModal";
+import "../../src/styles.css";
 import KingdomModal from "./KingdomModal";
 import HighlanderModal from "./HighlanderModal";
 import PartnerScraperModal from "./PartnerScraperModal";

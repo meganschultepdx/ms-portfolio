@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import Contact from "./Contact";
+import "../../src/styles.css";
 
 const HeaderT = () => {
 	return (
