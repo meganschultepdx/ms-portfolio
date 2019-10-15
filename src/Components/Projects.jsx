@@ -34,7 +34,7 @@ const Projects = () => {
 				<div className="container">
 					<img
 						src={stephenkingdom}
-						alt="screen shots of app"
+						alt="screen shots of app that will open modal with more images of app when clicked"
 						className="screenShot"
 					/>
 					<div className="middle">
@@ -51,6 +51,7 @@ const Projects = () => {
 				movies and mini-series. It was built as my capstone project for school.
 			</p>
 			<a
+				aria-label="GitHub"
 				href="https://github.com/meganschultepdx/the-stephen-kingdom"
 				target="blank"
 				className="linkToCode"
@@ -65,7 +66,7 @@ const Projects = () => {
 				<div className="container">
 					<img
 						src={highlander}
-						alt="screen shots of app"
+						alt="screen shots of app that will open pop up video of app when clicked"
 						className="screenShot highlanderMobile"
 					/>
 					<div className="middle">
@@ -81,6 +82,7 @@ const Projects = () => {
 				tracking pints left in kegs.
 			</p>
 			<a
+				aria-label="GitHub"
 				href="https://github.com/meganschultepdx/highlander-tap-house"
 				target="blank"
 				className="linkToCode"
@@ -98,7 +100,7 @@ const Projects = () => {
 							<img
 								src={PartnerScraperPic}
 								className="screenShot partnerScraperMobile"
-								alt="screen shots of app"
+								alt="screen shots of app that will open pop up video of app when clicked"
 							/>
 							<div className="middle">
 								<div className="textOnHover">click for more views of app</div>
@@ -121,6 +123,7 @@ const Projects = () => {
 				database that is called by the project's front-end to display data.
 			</p>
 			<a
+				aria-label="GitHub"
 				href="https://github.com/meganschultepdx/Epicodus-Internship-Project"
 				target="blank"
 				className="linkToCode"
@@ -135,7 +138,7 @@ const Projects = () => {
 				<div className="container">
 					<img
 						src={fieldguide2}
-						alt="screen shots of app"
+						alt="screen shots of app that will open pop up video of app when clicked"
 						className="screenShot"
 					/>
 					<div className="middle">
@@ -153,6 +156,7 @@ const Projects = () => {
 				first design. It provides users with a database of local Portland flora.
 			</p>
 			<a
+				aria-label="hosted project site"
 				href="https://portland-field-guide.firebaseapp.com/"
 				target="blank"
 				className="linkToHosted"
@@ -160,6 +164,7 @@ const Projects = () => {
 				view hosted site
 			</a>
 			<a
+				aria-label="GitHub"
 				href="https://github.com/meganschultepdx/Portland-field-guide"
 				target="blank"
 				className="linkToCode linkToCodeAlt"
@@ -184,6 +189,7 @@ const Projects = () => {
 				an editable list of stylists, clients and specialties.
 			</p>
 			<a
+				aria-label="GitHub"
 				href="https://github.com/meganschultepdx/HairSalon"
 				target="blank"
 				className="linkToCode"
@@ -208,6 +214,7 @@ const Projects = () => {
 				school group project in Epicodus's intro to coding course.
 			</p>
 			<a
+				aria-label="hosted project site"
 				href="https://meganschultepdx.github.io/free-food-finder/index.html"
 				target="blank"
 				className="linkToHosted"
@@ -215,6 +222,7 @@ const Projects = () => {
 				view hosted site
 			</a>
 			<a
+				aria-label="GitHub"
 				href="https://github.com/meganschultepdx/free-food-finder"
 				target="blank"
 				className="linkToCode linkToCodeAlt"
