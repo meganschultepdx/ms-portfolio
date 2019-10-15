@@ -162,11 +162,11 @@ button {
 }
 
 highlanderMobile {
-	max-height: 120px;
+	max-height: 100px;
 }
 
 partnerScraperMobile {
-	max-height: 100px;
+	max-height: 80px;
 }
 
 .alchemyScreenShot {
@@ -180,7 +180,7 @@ partnerScraperMobile {
 	width: auto;
 	max-width: 94%;
 	height: auto;
-	max-height: 100px;
+	max-height: 90px;
 }
 
 .middle {
@@ -306,6 +306,7 @@ a.linkToHosted:hover {
 .gibby {
 	width: 35%;
 	height: auto;
+	max-height: 140px;
 	border-radius: 6px;
 }
 
