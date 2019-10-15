@@ -21,7 +21,27 @@ body {
 	width: 100%;
 }
 
-#titleFirstName {
+.titleName {
+	display: inline-block;
+	margin-left: 20%;
+	/* margin-top: 10px; */
+}
+
+.namePicTwo {
+	width: 130px;
+	height: auto;
+	transform: rotate(-3grad);
+}
+
+.titleDescription {
+	margin-left: 66%;
+	margin-right: 5%;
+	margin-top: -25%;
+	z-index: 100;
+	padding-bottom: 70px;
+}
+
+/* #titleFirstName {
 	color: #926e03;
 	font-size: 4.1em;
 	font-family: "Arkipelago", sans-serif;
@@ -40,6 +60,10 @@ body {
 	transform: rotate(-7grad);
 }
 
+.lastNameSpacer {
+  opacity: 0;
+} */
+
 #titleDescription {
 	font-size: 0.9em;
 	color: #926e03;
@@ -49,26 +73,6 @@ body {
 	text-transform: uppercase;
 	font-family: "Jura", sans-serif;
 	line-height: 0.9;
-}
-
-.lastNameSpacer {
-	opacity: 0;
-}
-
-.titleName {
-	display: inline-block;
-	margin-left: 20%;
-	/* margin-top: 10px; */
-	margin-top: 5%;
-}
-
-.titleDescription {
-	margin-left: 66%;
-	margin-right: 5%;
-	margin-top: -87px;
-	/* margin-top: 5%; */
-	z-index: 100;
-	padding-bottom: 70px;
 }
 
 .contact {
@@ -790,24 +794,14 @@ a.linkToHosted:hover {
 	}
 
 	#titleFirstName {
-		padding-bottom: 0;
 		font-size: 9.5em;
-		color: #926e03;
 		margin-bottom: -100px;
-		font-family: "Muster", sans-serif;
-		font-weight: 500;
-		transform: rotate(-7grad);
 	}
 
 	#titleLastName {
-		padding-bottom: 0;
 		font-size: 9.5em;
-		color: #926e03;
 		padding-bottom: 10px;
 		margin-top: -85px;
-		font-family: "Muster", sans-serif;
-		font-weight: 500;
-		transform: rotate(-7grad);
 	}
 
 	.lastNameSpacer {
@@ -816,10 +810,6 @@ a.linkToHosted:hover {
 
 	#titleDescription {
 		font-size: 1.2em;
-		color: #926e03;
-		font-family: "Jura", sans-serif;
-		font-weight: 500;
-		text-transform: uppercase;
 		line-height: 0.9;
 	}
 
