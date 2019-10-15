@@ -16,7 +16,8 @@ body {
 }
 
 .header {
-	height: 175px;
+	/* height: 175px; */
+	height: 5%;
 	background: rgba(255, 255, 255, 0.05);
 	width: 100%;
 }
@@ -26,9 +27,7 @@ body {
 	font-size: 4.1em;
 	font-family: "Arkipelago", sans-serif;
 	font-weight: 500;
-	/* margin-bottom: -100px; */
 	font-family: "Muster", sans-serif;
-	font-weight: 500;
 	transform: rotate(-7grad);
 }
 
@@ -37,9 +36,8 @@ body {
 	font-size: 4.1em;
 	font-family: "Arkipelago", sans-serif;
 	font-weight: 500;
-	margin-top: -47px;
+	margin-top: -39%;
 	font-family: "Muster", sans-serif;
-	font-weight: 500;
 	transform: rotate(-7grad);
 }
 
@@ -60,14 +58,16 @@ body {
 
 .titleName {
 	display: inline-block;
-	margin-left: 20%;
-	margin-top: 10px;
+	/* margin-left: 15%; */
+	/* margin-top: 10px; */
+	margin-top: 5%;
 }
 
 .titleDescription {
 	margin-left: 66%;
 	margin-right: 5%;
-	margin-top: -87px;
+	/* margin-top: -87px; */
+	/* margin-top: 30%; */
 	z-index: 100;
 	padding-bottom: 66px;
 }
@@ -374,25 +374,12 @@ a.linkToHosted:hover {
 }
 
 #titleFirstName {
-	color: #926e03;
 	font-size: 4.8em;
-	font-family: "Arkipelago", sans-serif;
-	font-weight: 500;
-	/* margin-bottom: -100px; */
-	font-family: "Muster", sans-serif;
-	font-weight: 500;
-	transform: rotate(-7grad);
 }
 
 #titleLastName {
-	color: #926e03;
 	font-size: 4.8em;
-	font-family: "Arkipelago", sans-serif;
-	font-weight: 500;
-	margin-top: -55px;
-	font-family: "Muster", sans-serif;
-	font-weight: 500;
-	transform: rotate(-7grad);
+	/* margin-top: -55px; */
 }
 
 #titleDescription {
