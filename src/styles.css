@@ -21,6 +21,10 @@ body {
 	width: 100%;
 }
 
+.title {
+	max-height: 600px;
+}
+
 .titleName {
 	display: inline-block;
 	margin-left: 20%;
