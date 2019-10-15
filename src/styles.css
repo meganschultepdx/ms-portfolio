@@ -41,33 +41,9 @@ body {
 	padding-bottom: 70px;
 }
 
-/* #titleFirstName {
-	color: #926e03;
-	font-size: 4.1em;
-	font-family: "Arkipelago", sans-serif;
-	font-weight: 500;
-	font-family: "Muster", sans-serif;
-	transform: rotate(-7grad);
-}
-
-#titleLastName {
-	color: #926e03;
-	font-size: 4.1em;
-	font-family: "Arkipelago", sans-serif;
-	font-weight: 500;
-	margin-top: -45%;
-	font-family: "Muster", sans-serif;
-	transform: rotate(-7grad);
-}
-
-.lastNameSpacer {
-  opacity: 0;
-} */
-
 #titleDescription {
 	font-size: 0.9em;
 	color: #926e03;
-	font-family: "Raleway", sans-serif;
 	font-weight: 500;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -98,11 +74,6 @@ body {
 	line-height: 1.1;
 }
 
-/* .about:hover {
-	font-size: 1.1em;
-	margin: 25px 25px 15px 25px;
-} */
-
 .aboutParagraphs {
 	margin-bottom: 15px;
 	text-align: justify;
@@ -127,8 +98,6 @@ body {
 	font-weight: 500;
 }
 
-/* project images, hover text and modals */
-
 button {
 	background-color: rgb(10, 10, 10);
 	border-color: rgb(10, 10, 10);
@@ -150,6 +119,8 @@ button {
 	display: flex;
 	justify-content: center;
 }
+
+/* project images, hover text and modals */
 
 .screenShot {
 	width: auto;
@@ -291,11 +262,6 @@ a.linkToHosted:hover {
 	line-height: 1.1;
 }
 
-/* .aboutPersonal:hover .personalParagraph {
-	font-size: 1.1em;
-	margin: 15px 25px 15px 25px;
-} */
-
 .gibbyContainer {
 	width: 100%;
 	display: flex;
@@ -387,85 +353,36 @@ a.linkToHosted:hover {
 @media screen and (min-width: 500px) {
 	.header {
 		height: 190px;
-		background: rgba(255, 255, 255, 0.05);
-		width: 100%;
-	}
-
-	#titleFirstName {
-		font-size: 4.8em;
-	}
-
-	#titleLastName {
-		font-size: 4.8em;
-		/* margin-top: -55px; */
-	}
-
-	#titleDescription {
-		font-size: 0.9em;
-		color: #926e03;
-		font-family: "Raleway", sans-serif;
-		font-weight: 500;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		font-family: "Jura", sans-serif;
-		line-height: 0.9;
-	}
-
-	.lastNameSpacer {
-		opacity: 0;
+		background: rgba(255, 255, 255, 0);
 	}
 
 	.titleName {
-		display: inline-block;
-		margin-left: 20%;
-		margin-top: 5%;
+		margin-left: 25%;
+	}
+
+	.namePicTwo {
+		width: 180px;
 	}
 
 	.titleDescription {
 		margin-left: 60%;
-		margin-right: 5%;
-		margin-top: -78px;
-		z-index: 100;
-		padding-bottom: 74px;
+		margin-top: -15%;
+		padding-bottom: 95px;
 	}
 
-	.contact {
-		display: flex;
-		justify-content: space-evenly;
-	}
-
-	.contact a {
-		color: #666154;
-	}
-
-	.contact a:hover {
-		color: #2c0413;
-		transition: color 0.5s;
+	#titleDescription {
+		font-size: 1.1em;
 	}
 
 	.about {
 		margin-left: 15%;
 		margin-right: 15%;
 		font-size: 1.1em;
-		margin-top: 110px;
-		color: #a8a3a5;
-		font-family: "Raleway", sans-serif;
-		line-height: 1.1;
-	}
-
-	.aboutParagraphs {
-		margin-bottom: 15px;
-		text-align: justify;
+		margin-top: 160px;
 	}
 
 	.sectionLabel {
-		color: #666154;
-		text-align: center;
-		text-transform: uppercase;
 		padding-top: 40px;
-		font-family: "Raleway", sans-serif;
-		letter-spacing: 2px;
-		font-weight: 500;
 	}
 
 	.projectTitles {
@@ -478,15 +395,18 @@ a.linkToHosted:hover {
 
 	.screenShot {
 		width: 72%;
+		max-height: 1000px;
 	}
 
 	.alchemyScreenShot {
 		width: 70%;
 		height: auto;
+		max-height: 1000px;
 	}
 
 	.freeFoodScreenShot {
 		width: 72%;
+		max-height: 1000px;
 	}
 
 	.stackUsed {
@@ -550,6 +470,7 @@ a.linkToHosted:hover {
 
 	.gibby {
 		width: 25%;
+		max-height: 1000px;
 	}
 
 	.footer {
@@ -599,160 +520,77 @@ a.linkToHosted:hover {
 @media screen and (min-width: 792px) {
 	.header {
 		height: 235px;
-		background: rgba(255, 255, 255, 0);
-	}
-
-	#titleFirstName {
-		padding-bottom: 0;
-		font-size: 8.5em;
-		color: #926e03;
-		margin-bottom: -100px;
-		font-family: "Muster", sans-serif;
-		font-weight: 500;
-		transform: rotate(-7grad);
-	}
-
-	#titleLastName {
-		padding-bottom: 0;
-		font-size: 8.5em;
-		color: #926e03;
-		padding-bottom: 10px;
-		margin-top: -100px;
-		font-family: "Muster", sans-serif;
-		font-weight: 500;
-		transform: rotate(-7grad);
-	}
-
-	.lastNameSpacer {
-		opacity: 0;
-	}
-
-	#titleDescription {
-		font-size: 1.2em;
-		color: #926e03;
-		font-family: "Jura", sans-serif;
-		font-weight: 500;
-		text-transform: uppercase;
-		line-height: 0.9;
 	}
 
 	.titleName {
 		display: inline-block;
-		margin-left: 20%;
+		margin-left: 25%;
+	}
+
+	.namePicTwo {
+		width: 250px;
 	}
 
 	.titleDescription {
 		margin-left: 58%;
-		margin-top: -150px;
-		z-index: 100;
+		margin-top: -13%;
 		padding-bottom: 130px;
 	}
 
-	.contactContainer {
-		display: flex;
-		justify-content: center;
-	}
-
-	.contact {
-		width: 90%;
-		display: flex;
-		justify-content: space-evenly;
+	#titleDescription {
+		font-size: 1.3em;
 	}
 
 	.about {
-		margin: 220px 20% 40px 20%;
+		margin: 230px 20% 50px 20%;
 		font-size: 1.2em;
 		line-height: 1.2;
 	}
-
-	/* .about:hover {
-		font-size: 1.3em;
-		margin: 50px 13% 30px 13%;
-	} */
 
 	.aboutParagraphs {
 		margin-bottom: 20px;
 	}
 
 	.projectTitles {
-		padding-top: 30px;
-		margin-left: 16%;
-		font-size: 1.2em;
+		font-size: 1.3em;
+		margin-left: 15%;
 	}
 
 	/* project images, hover text and modals */
 
-	.screenShot {
-		width: 72%;
-	}
-
-	.alchemyScreenShot {
-		width: 70%;
-		height: auto;
-	}
-
-	.freeFoodScreenShot {
-		width: 72%;
-	}
-
 	.stackUsed {
-		margin-left: 16%;
-		font-size: 1.2em;
+		margin-left: 15%;
+		font-size: 1.3em;
 	}
 
 	.aboutProject {
-		padding-top: 10px;
-		padding-bottom: 10px;
-		margin-left: 16%;
-		margin-right: 16%;
-		font-size: 1em;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1.1em;
 	}
 
 	/* link to github code */
 	a.linkToCode {
-		margin-left: 16%;
-		font-size: 1em;
+		margin-left: 15%;
+		font-size: 1.1em;
 	}
 
 	a.linkToCodeAlt {
-		margin-left: 15px;
-		font-size: 1em;
-	}
-
-	/* mouse over link to github code*/
-	a.linkToCode:hover {
-		font-size: 1.5em;
-	}
-
-	a.linkToCodeAlt:hover {
-		font-size: 1.5em;
-	}
-
-	.spacer {
-		height: 55px;
+		font-size: 1.1em;
+		margin-left: 20px;
 	}
 
 	/* link to hosted sites */
 	a.linkToHosted {
-		margin-left: 16%;
-		font-size: 1em;
-	}
-
-	/* mouse over link to hosted sites */
-	a.linkToHosted:hover {
-		font-size: 1.5em;
+		margin-left: 15%;
+		font-size: 1.1em;
 	}
 
 	.personalParagraph {
-		margin: 50px 18% 20px 18%;
-		font-size: 1.1em;
+		margin: 50px 20% 20px 20%;
+		font-size: 1.2em;
 		line-height: 1.2;
 	}
-
-	/* .aboutPersonal:hover .personalParagraph {
-		font-size: 1.3em;
-		margin: 50px 13% 20px 13%;
-	} */
 
 	.gibby {
 		width: 25%;
@@ -805,27 +643,15 @@ a.linkToHosted:hover {
 @media screen and (min-width: 1200px) {
 	.header {
 		height: 350px;
-		background: rgba(255, 255, 255, 0);
 	}
 
-	#titleFirstName {
-		font-size: 9.5em;
-		margin-bottom: -100px;
+	.titleName {
+		display: inline-block;
+		margin-left: 25%;
 	}
 
-	#titleLastName {
-		font-size: 9.5em;
-		padding-bottom: 10px;
-		margin-top: -85px;
-	}
-
-	.lastNameSpacer {
-		opacity: 0;
-	}
-
-	#titleDescription {
-		font-size: 1.2em;
-		line-height: 0.9;
+	.namePicTwo {
+		width: 300px;
 	}
 
 	.titleName {
@@ -835,24 +661,24 @@ a.linkToHosted:hover {
 
 	.titleDescription {
 		margin-left: 58%;
-		margin-top: -130px;
-		z-index: 100;
-		padding-bottom: 130px;
+		margin-top: -11%;
+		padding-bottom: 150px;
+	}
+
+	#titleDescription {
+		font-size: 1.4em;
 	}
 
 	.contact {
 		width: 80%;
+		display: flex;
+		justify-content: space-evenly;
 	}
 
 	.about {
-		margin: 140px 27% 65px 27%;
+		margin: 240px 27% 65px 27%;
 		font-size: 1.3em;
 	}
-
-	/* .about:hover {
-		font-size: 1.5em;
-		margin: 75px 20% 65px 20%;
-	} */
 
 	/* project images, hover text and modals */
 	.sectionLabel {
@@ -881,8 +707,6 @@ a.linkToHosted:hover {
 	}
 
 	.textOnHover {
-		background-color: #926e03;
-		color: black;
 		font-size: 1.8em;
 		padding: 20px 38px;
 		text-transform: uppercase;
@@ -932,14 +756,9 @@ a.linkToHosted:hover {
 	}
 
 	.personalParagraph {
-		margin: 50px 25% 25px 25%;
+		margin: 50px 27% 28px 27%;
 		font-size: 1.3em;
 	}
-
-	/* .aboutPersonal:hover .personalParagraph {
-		font-size: 1.5em;
-		margin: 50px 20% 25px 20%;
-	} */
 
 	.gibby {
 		width: 20%;
