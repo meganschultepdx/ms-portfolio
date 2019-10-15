@@ -7,7 +7,7 @@ const Title = () => {
 			<div className="titleName">
 				<h1 id="titleFirstName">Megan</h1>
 				<h1 id="titleLastName">
-					<sp className="lastNameSpacer">.</sp>
+					<span className="lastNameSpacer">.</span>
 					Schulte
 				</h1>
 			</div>
