@@ -161,12 +161,12 @@ button {
 	backface-visibility: hidden;
 }
 
-highlanderMobile {
-	max-height: 50px;
+..highlanderMobile {
+	max-height: 100px;
 }
 
 partnerScraperMobile {
-	max-height: 50px;
+	max-height: 100px;
 }
 
 .alchemyScreenShot {
