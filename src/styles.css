@@ -21,10 +21,6 @@ body {
 	width: 100%;
 }
 
-.title {
-	max-height: 600px;
-}
-
 .titleName {
 	display: inline-block;
 	margin-left: 20%;
@@ -159,6 +155,7 @@ button {
 	width: auto;
 	max-width: 94%;
 	height: auto;
+	max-height: 400px;
 	opacity: 1;
 	transition: 0.5s ease;
 	backface-visibility: hidden;
