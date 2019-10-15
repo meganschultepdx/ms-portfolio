@@ -66,7 +66,7 @@ const Projects = () => {
 					<img
 						src={highlander}
 						alt="screen shots of app"
-						className="screenShot"
+						className="screenShot highlanderMobile"
 					/>
 					<div className="middle">
 						<div className="textOnHover">click for more views of app</div>
@@ -97,7 +97,7 @@ const Projects = () => {
 						<div className="container">
 							<img
 								src={PartnerScraperPic}
-								className="screenShot"
+								className="screenShot partnerScraperMobile"
 								alt="screen shots of app"
 							/>
 							<div className="middle">

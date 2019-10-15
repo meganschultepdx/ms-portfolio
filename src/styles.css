@@ -161,16 +161,26 @@ button {
 	backface-visibility: hidden;
 }
 
+highlanderMobile {
+	max-height: 120px;
+}
+
+partnerScraperMobile {
+	max-height: 100px;
+}
+
 .alchemyScreenShot {
 	width: auto;
 	max-width: 90%;
 	height: auto;
+	max-height: 150px;
 }
 
 .freeFoodScreenShot {
 	width: auto;
 	max-width: 94%;
 	height: auto;
+	max-height: 100px;
 }
 
 .middle {
