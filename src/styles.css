@@ -155,7 +155,7 @@ button {
 	width: auto;
 	max-width: 94%;
 	height: auto;
-	max-height: 200px;
+	max-height: 150px;
 	opacity: 1;
 	transition: 0.5s ease;
 	backface-visibility: hidden;
