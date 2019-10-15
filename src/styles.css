@@ -152,7 +152,8 @@ button {
 }
 
 .screenShot {
-	width: 94%;
+	width: auto;
+	max-width: 94%;
 	height: auto;
 	opacity: 1;
 	transition: 0.5s ease;
@@ -160,12 +161,14 @@ button {
 }
 
 .alchemyScreenShot {
-	width: 90%;
+	width: auto;
+	max-width: 90%;
 	height: auto;
 }
 
 .freeFoodScreenShot {
-	width: 94%;
+	width: auto;
+	max-width: 94%;
 	height: auto;
 }
 
