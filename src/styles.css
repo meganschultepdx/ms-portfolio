@@ -1,3 +1,12 @@
+@font-face {
+	font-family: "Muster";
+	src: url("./assets/fonts/Muster.eot");
+	src: url("./assets/fonts/muster-webfont.woff") format("woff"),
+		url("./assets/fonts/muster-webfont.woff2") format("woff2"),
+		url("./assets/fonts/Muster.otf") format("opentype");
+	/* url("css/fonts/Harabara.svg#filename") format("svg"); */
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
