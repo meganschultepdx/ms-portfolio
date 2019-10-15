@@ -463,11 +463,6 @@ a.linkToHosted:hover {
 		line-height: 1.2;
 	}
 
-	/* .aboutPersonal:hover .personalParagraph {
-  font-size: 1.3em;
-  margin: 50px 13% 20px 13%;
-} */
-
 	.gibby {
 		width: 25%;
 		max-height: 1000px;
@@ -670,13 +665,14 @@ a.linkToHosted:hover {
 	}
 
 	.contact {
-		width: 80%;
 		display: flex;
 		justify-content: space-evenly;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 	.about {
-		margin: 240px 27% 65px 27%;
+		margin: 200px 27% 65px 27%;
 		font-size: 1.3em;
 	}
 
