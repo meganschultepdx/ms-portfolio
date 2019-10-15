@@ -161,11 +161,11 @@ button {
 	backface-visibility: hidden;
 }
 
-..highlanderMobile {
+.highlanderMobile {
 	max-height: 100px;
 }
 
-partnerScraperMobile {
+.partnerScraperMobile {
 	max-height: 100px;
 }
 
