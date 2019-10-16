@@ -131,6 +131,15 @@ button {
 	opacity: 1;
 	transition: 0.5s ease;
 	backface-visibility: hidden;
+	border-radius: 4px;
+}
+
+.highlanderScreenshot {
+	width: 96%;
+}
+
+.partnerScraperScreenshot {
+	width: 96%;
 }
 
 .highlanderMobile {
@@ -150,7 +159,7 @@ button {
 
 .freeFoodScreenShot {
 	width: auto;
-	max-width: 94%;
+	max-width: 96%;
 	height: auto;
 	max-height: 90px;
 }
@@ -291,7 +300,7 @@ a.linkToHosted:hover {
 }
 
 .modal {
-	width: 375px;
+	width: 98%;
 	height: auto;
 	position: fixed;
 	top: 25px;
@@ -330,9 +339,10 @@ a.linkToHosted:hover {
 }
 
 .modalImage {
-	width: 80%;
+	width: 90%;
 	height: auto;
-	margin-left: 10%;
+	margin-left: 5%;
+	margin-right: auto;
 	border-radius: 4px;
 }
 
@@ -399,6 +409,14 @@ a.linkToHosted:hover {
 		max-height: 1000px;
 	}
 
+	.highlanderScreenshot {
+		width: 75%;
+	}
+
+	.partnerScraperScreenshot {
+		width: 75%;
+	}
+
 	.alchemyScreenShot {
 		width: 70%;
 		height: auto;
@@ -406,7 +424,7 @@ a.linkToHosted:hover {
 	}
 
 	.freeFoodScreenShot {
-		width: 72%;
+		width: 75%;
 		max-height: 1000px;
 	}
 
@@ -477,7 +495,7 @@ a.linkToHosted:hover {
 	/* modals for projects */
 
 	.modal {
-		width: 760px;
+		width: 98%;
 		height: 700px;
 		max-height: calc(125vh - 210px);
 		overflow-y: auto;
@@ -495,9 +513,8 @@ a.linkToHosted:hover {
 	}
 
 	.modalImage {
-		width: 80%;
-		height: auto;
-		margin-left: 10%;
+		margin-left: 5%;
+		margin-right: auto;
 		border-radius: 4px;
 	}
 }
@@ -600,7 +617,6 @@ a.linkToHosted:hover {
 	/* modals for projects */
 
 	.modal {
-		width: 760px;
 		height: 700px;
 		max-height: calc(125vh - 210px);
 		overflow-y: auto;
@@ -612,16 +628,10 @@ a.linkToHosted:hover {
 		margin: 2%;
 	}
 
-	.fieldGuideModal {
-		width: 350px;
+	.vidModal {
+		width: 75%;
 		height: auto;
-	}
-
-	.modalImage {
-		width: 80%;
-		height: auto;
-		margin-left: 10%;
-		border-radius: 4px;
+		margin: 1%;
 	}
 }
 
@@ -689,18 +699,23 @@ a.linkToHosted:hover {
 
 	.screenShot {
 		width: 60%;
-		/* width: 74%; */
+	}
+
+	.highlanderScreenshot {
+		width: 65%;
+	}
+
+	.partnerScraperScreenshot {
+		width: 65%;
 	}
 
 	.alchemyScreenShot {
-		/* width: 73%; */
 		width: 60%;
 		height: auto;
 	}
 
 	.freeFoodScreenShot {
-		/* width: 74%; */
-		width: 60%;
+		width: 65%;
 	}
 
 	.textOnHover {
@@ -769,16 +784,15 @@ a.linkToHosted:hover {
 
 	/* modals for projects */
 	.modal {
-		width: 760px;
-		height: 700px;
+		width: 80%;
 		max-height: calc(125vh - 210px);
 		overflow-y: auto;
 	}
 
 	.vidModal {
-		width: 95%;
+		width: 65%;
 		height: auto;
-		margin: 2%;
+		margin: 1%;
 	}
 
 	.fieldGuideModal {
@@ -787,9 +801,19 @@ a.linkToHosted:hover {
 	}
 
 	.modalImage {
+		width: 85%;
+		height: auto;
+		margin-left: 5%;
+		margin-right: auto;
+	}
+
+	.modalVid {
+		margin-top: 1%;
 		width: 80%;
 		height: auto;
-		margin-left: 10%;
-		border-radius: 4px;
+	}
+
+	.fieldGuideVid {
+		margin-top: 10px;
 	}
 }

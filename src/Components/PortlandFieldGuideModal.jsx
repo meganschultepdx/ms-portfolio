@@ -5,6 +5,7 @@ import "video-react/dist/video-react.css";
 import "../../src/styles.css";
 
 const PortlandFieldGuideVid = require("../assets/img/PortlandFieldGuide.mov");
+const fieldGuidePoster = require("../assets/img/fieldGuidePoster.png");
 
 const PortlandFieldGuideModal = ({ isDisplayed, hide }) =>
 	isDisplayed
@@ -33,7 +34,7 @@ const PortlandFieldGuideModal = ({ isDisplayed, hide }) =>
 							<Player
 								className="fieldGuideVid"
 								playsInline
-								poster="/assets/img/highlander"
+								poster={fieldGuidePoster}
 								src={PortlandFieldGuideVid}
 							/>
 						</div>

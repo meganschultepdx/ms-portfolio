@@ -5,6 +5,7 @@ import "video-react/dist/video-react.css";
 import "../../src/styles.css";
 
 const HighlanderTapHouseVid = require("../assets/img/HighlanderTapHouse.mov");
+const highlanderPoster = require("../assets/img/highlanderPoster.png");
 
 const HighlanderModal = ({ isShown, hide }) =>
 	isShown
@@ -33,7 +34,7 @@ const HighlanderModal = ({ isShown, hide }) =>
 							<Player
 								className="modalVid"
 								playsInline
-								poster="/assets/img/highlander"
+								poster={highlanderPoster}
 								src={HighlanderTapHouseVid}
 							/>
 						</div>

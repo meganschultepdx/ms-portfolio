@@ -7,9 +7,12 @@ import PartnerScraperModal from "./PartnerScraperModal";
 import PortlandFieldGuideModal from "./PortlandFieldGuideModal";
 
 const fieldguide2 = require("../assets/img/fieldguide2.png");
+const fieldGuidePhones = require("../assets/img/fieldGuidePhones.jpg");
 const stephenkingdom = require("../assets/img/stephenkingdom.png");
-const highlander = require("../assets/img/highlander.png");
+const kingdomPhones3 = require("../assets/img/kingdomPhones3.jpg");
+const highlanderTablet = require("../assets/img/highlanderTablet.jpg");
 const PartnerScraperPic = require("../assets/img/PartnerScraperPic.png");
+const PartnerScraper2 = require("../assets/img/PartnerScraper2.jpg");
 const freefood = require("../assets/img/freefood.png");
 const hairsalon = require("../assets/img/hairsalon.png");
 
@@ -33,7 +36,7 @@ const Projects = () => {
 			<button onClick={toggle}>
 				<div className="container">
 					<img
-						src={stephenkingdom}
+						src={kingdomPhones3}
 						alt="screen shots of app that will open modal with more images of app when clicked"
 						className="screenShot"
 					/>
@@ -65,9 +68,9 @@ const Projects = () => {
 			<button onClick={highlanderToggle}>
 				<div className="container">
 					<img
-						src={highlander}
+						src={highlanderTablet}
 						alt="screen shots of app that will open pop up video of app when clicked"
-						className="screenShot highlanderMobile"
+						className="screenShot highlanderScreenshot highlanderMobile"
 					/>
 					<div className="middle">
 						<div className="textOnHover">click for more views of app</div>
@@ -98,8 +101,8 @@ const Projects = () => {
 					<button onClick={partnerScraperToggle}>
 						<div className="container">
 							<img
-								src={PartnerScraperPic}
-								className="screenShot partnerScraperMobile"
+								src={PartnerScraper2}
+								className="screenShot partnerScraperScreenshot partnerScraperMobile"
 								alt="screen shots of app that will open pop up video of app when clicked"
 							/>
 							<div className="middle">
@@ -137,7 +140,7 @@ const Projects = () => {
 			<button onClick={fieldGuideToggle}>
 				<div className="container">
 					<img
-						src={fieldguide2}
+						src={fieldGuidePhones}
 						alt="screen shots of app that will open pop up video of app when clicked"
 						className="screenShot"
 					/>

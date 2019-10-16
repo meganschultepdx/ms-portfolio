@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "../../src/styles.css";
 
-const kingdomscreenshots = require("../assets/img/kingdomscreenshots.png");
+const newKingdomScreenshots = require("../assets/img/newKingdomScreenshots.jpg");
 // const stephenkingdom = require("../assets/img/stephenkingdom.png");
 
 const KingdomModal = ({ isShowing, hide }) =>
@@ -36,7 +36,7 @@ const KingdomModal = ({ isShowing, hide }) =>
 								className="screenShot"
 							/> */}
 							<img
-								src={kingdomscreenshots}
+								src={newKingdomScreenshots}
 								alt="screenshots of app"
 								className="modalImage"
 							/>

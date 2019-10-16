@@ -5,6 +5,7 @@ import "video-react/dist/video-react.css";
 import "../../src/styles.css";
 
 const PartnerScraperVid = require("../assets/img/PartnerScraper.mov");
+const partnerScraperPoster = require("../assets/img/partnerScraperPoster.png");
 
 const PartnerScraperModal = ({ isShowed, hide }) =>
 	isShowed
@@ -33,7 +34,7 @@ const PartnerScraperModal = ({ isShowed, hide }) =>
 							<Player
 								className="modalVid"
 								playsInline
-								poster="/assets/img/highlander"
+								poster={partnerScraperPoster}
 								src={PartnerScraperVid}
 							/>
 						</div>
