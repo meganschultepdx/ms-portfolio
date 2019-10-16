@@ -9,10 +9,10 @@ const AboutPersonal = () => {
 			<h2 className="sectionLabel">more about me</h2>
 			<p className="personalParagraph">
 				When I'm not coding you can most likely find me somewhere outdoors
-				either canoeing, camping or hiking with my dog, at the Hollywood theater
-				watching old horror or cult movies, in my studio printing or making
-				chainmaille jewelry or hanging out with friends in my neighborhood of St
-				Johns.
+				either canoeing, camping or hiking with my dog, in my yard gardening, at
+				the Hollywood theater watching old horror or cult movies, in my studio
+				printing or making chainmaille jewelry or hanging out with friends in my
+				neighborhood of St Johns.
 			</p>
 			<div className="gibbyContainer">
 				<img src={gibby} alt="my dog" className="gibby" />
