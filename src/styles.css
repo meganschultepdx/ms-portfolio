@@ -58,7 +58,7 @@ body {
 
 .contact a {
 	color: #999997;
-	color: #a5ac8e;
+	color: #7d7e7a;
 }
 
 .contact a:hover {
@@ -311,7 +311,7 @@ a.linkToHosted:hover {
 }
 
 .vidModal {
-	width: 375px;
+	width: 98%;
 	height: auto;
 	position: fixed;
 	top: 25px;
@@ -321,7 +321,7 @@ a.linkToHosted:hover {
 }
 
 .fieldGuideModal {
-	width: 350px;
+	width: 95%;
 	height: auto;
 	position: fixed;
 	top: 0;
