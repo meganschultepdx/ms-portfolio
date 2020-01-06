@@ -1,19 +1,17 @@
 import React from "react";
-import HeaderT from "./Components/HeaderT";
-import About from "./Components/About";
-import Projects from "./Components/Projects";
-import AboutPersonal from "./Components/AboutPersonal";
-import Footer from "./Components/Footer.jsx";
+import { Switch, Route } from "react-router-dom";
+
+import Resume from "./Components/Resume";
+import Home from "./Components/Home";
 
 function App() {
 	return (
-		<div className="App">
-			<HeaderT />
-			<About />
-			<Projects />
-			<AboutPersonal />
-			<Footer />
-		</div>
+		<React.Fragment className="App">
+			<Switch>
+				<Route exact path="/" component={Home} />
+				<Route exact path="/resume" component={Resume} />
+			</Switch>
+		</React.Fragment>
 	);
 }
 
