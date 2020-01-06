@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../src/styles.css";
 
 const About = () => {
@@ -17,6 +18,9 @@ const About = () => {
 				I can't stop trying to learn everything at once and I am so eager to
 				continue growing in my new career!
 			</p>
+			<Link to="/resume" className="linkToResume">
+				view my resume
+			</Link>
 		</div>
 	);
 };

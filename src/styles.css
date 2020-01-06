@@ -238,6 +238,20 @@ a.linkToCode:hover {
 	transition: color 0.5s, font 0.5s;
 }
 
+.linkToResume {
+	color: #c903fa;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 0.85em;
+}
+
+.linkToResume:hover {
+	color: #690283;
+	font-size: 1.25em;
+	transition: color 0.5s, font 0.5s;
+}
+
 .spacer {
 	height: 35px;
 }
@@ -461,6 +475,14 @@ a.linkToHosted:hover {
 		font-size: 1.5em;
 	}
 
+	.linkToResume {
+		font-size: 1em;
+	}
+
+	.linkToResume:hover {
+		font-size: 1.5em;
+	}
+
 	.spacer {
 		height: 55px;
 	}
@@ -591,6 +613,10 @@ a.linkToHosted:hover {
 	a.linkToCodeAlt {
 		font-size: 1.1em;
 		margin-left: 20px;
+	}
+
+	.linkToResume {
+		font-size: 1.1em;
 	}
 
 	/* link to hosted sites */
@@ -752,6 +778,14 @@ a.linkToHosted:hover {
 		font-size: 1.5em;
 	}
 
+	.linkToResume {
+		font-size: 1.1em;
+	}
+
+	.linkToResume:hover {
+		font-size: 1.3em;
+	}
+
 	a.linkToCodeAlt:hover {
 		font-size: 1.5em;
 	}
@@ -820,4 +854,16 @@ a.linkToHosted:hover {
 
 .back-home {
 	background-color: white;
+}
+
+.linkToResume {
+	color: #c903fa;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 0.85em;
+}
+
+.linkToResume:hover {
+	font-size: 1.5e;
 }
