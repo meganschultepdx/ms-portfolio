@@ -12,7 +12,6 @@ export default class Home extends Component {
 			<React.Fragment>
 				<HeaderT />
 				<HeaderParallax />
-				{/* <About /> */}
 				<Projects />
 				<AboutPersonal />
 				<Footer />

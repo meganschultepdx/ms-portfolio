@@ -25,12 +25,6 @@ body {
 	background-color: var(--backgroundGrey);
 }
 
-/* .header {
-	height: 175px;
-	background: rgba(255, 255, 255, 0.05);
-	width: 100%;
-} */
-
 .title {
 	padding-bottom: 4rem;
 }
@@ -266,7 +260,7 @@ a.linkToCode {
 
 /* mouse over link to github code*/
 a.linkToCode:hover {
-	color: var(--lighterBlue);
+	color: var(--mainBlue);
 	font-size: 1.25em;
 	transition: color 0.5s, font 0.5s;
 }
@@ -288,7 +282,7 @@ a.linkToHosted {
 
 /* mouse over link to hosted sites */
 a.linkToHosted:hover {
-	color: var(--mainYellow);
+	color: var(--darkerYellow);
 	font-size: 1.25em;
 	transition: color 0.5s, font 0.5s;
 }
@@ -470,6 +464,7 @@ a.linkToHosted:hover {
 
 	.stackUsed {
 		margin-left: 16%;
+		margin-right: 15%;
 		font-size: 1.2em;
 	}
 
@@ -628,6 +623,7 @@ a.linkToHosted:hover {
 
 	.stackUsed {
 		margin-left: 15%;
+		margin-right: 15%;
 		font-size: 1.3em;
 	}
 
@@ -805,6 +801,7 @@ a.linkToHosted:hover {
 
 	.stackUsed {
 		margin-left: 21%;
+		margin-right: 21%;
 		font-size: 1.5em;
 	}
 

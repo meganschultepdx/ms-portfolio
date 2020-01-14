@@ -6,15 +6,13 @@ import HighlanderModal from "./HighlanderModal";
 import PartnerScraperModal from "./PartnerScraperModal";
 import PortlandFieldGuideModal from "./PortlandFieldGuideModal";
 
-const fieldguide2 = require("../assets/img/fieldguide2.png");
 const fieldGuidePhones = require("../assets/img/fieldGuidePhones.jpg");
-const stephenkingdom = require("../assets/img/stephenkingdom.png");
 const kingdomPhones3 = require("../assets/img/kingdomPhones3.jpg");
 const highlanderTablet = require("../assets/img/highlanderTablet.jpg");
-const PartnerScraperPic = require("../assets/img/PartnerScraperPic.png");
 const PartnerScraper2 = require("../assets/img/PartnerScraper2.jpg");
 const freefood = require("../assets/img/freefood.png");
 const hairsalon = require("../assets/img/hairsalon.png");
+const ecommerceStore = require("../assets/img/ecommerceStore.png");
 
 const Projects = () => {
 	const {
@@ -30,6 +28,47 @@ const Projects = () => {
 	return (
 		<div className="projects">
 			<h2 className="sectionLabel">projects</h2>
+
+			{/* practice ecommerce store */}
+			<h3 className="projectTitles">Practice Ecommerce Store</h3>
+			<button>
+				<div className="container">
+					<img
+						src={ecommerceStore}
+						alt="screen shot of ecommerce store website"
+						className="screenShot"
+					/>
+					<div className="middle">
+						<div className="textOnHover">
+							click below to view hosted site or code
+						</div>
+					</div>
+				</div>
+			</button>
+			<h4 className="stackUsed">
+				React web app using Context, styled components & PayPal dev REST API
+			</h4>
+			<p className="aboutProject">
+				This is a recent practice project I did that is an ecommerce store for
+				my brand Erdoben.
+			</p>
+			<a
+				aria-label="hosted project site"
+				href="https://reactecommercesite.netlify.com/"
+				target="blank"
+				className="linkToHosted"
+			>
+				view hosted site
+			</a>
+			<a
+				aria-label="GitHub"
+				href="https://github.com/meganschultepdx/react-ecommerce-store"
+				target="blank"
+				className="linkToCode linkToCodeAlt"
+			>
+				view Code
+			</a>
+			<div className="spacer"></div>
 
 			{/* the stephen kingdom */}
 			<h3 className="projectTitles">the stephen kingdom</h3>
