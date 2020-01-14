@@ -6,19 +6,33 @@
 	/* url("css/fonts/Harabara.svg#filename") format("svg"); */
 }
 
+:root {
+	--mainYellow: #b8810a;
+	--darkerYellow: #5a3f03;
+	--mainBlue: #08507a;
+	--lighterBlue: #2776a3;
+	--backgroundGrey: rgb(34, 33, 33);
+	--mainWhite: #bbc0ab;
+	--modalBackground: rgb(199, 196, 196);
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 }
 
 body {
-	background-color: rgb(10, 10, 10);
+	background-color: var(--backgroundGrey);
 }
 
-.header {
+/* .header {
 	height: 175px;
 	background: rgba(255, 255, 255, 0.05);
 	width: 100%;
+} */
+
+.title {
+	padding-bottom: 4rem;
 }
 
 .titleName {
@@ -38,12 +52,12 @@ body {
 	margin-right: 5%;
 	margin-top: -25%;
 	z-index: 100;
-	padding-bottom: 70px;
+	/* padding-bottom: 70px; */
 }
 
 #titleDescription {
 	font-size: 0.9em;
-	color: #b8810a;
+	color: var(--mainYellow);
 	font-weight: 500;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -54,25 +68,29 @@ body {
 .contact {
 	display: flex;
 	justify-content: space-evenly;
+	margin-top: -1rem;
+	margin-bottom: 1rem;
 }
 
 .contact a {
-	color: #999997;
-	color: #7d7e7a;
+	color: var(--mainWhite);
 }
 
 .contact a:hover {
-	color: #690283;
-	transition: color 0.5s;
+	color: var(--mainBlue);
+	transform: scale(1.2);
+	transition: all 0.2s ease-in-out;
 }
 
 .about {
-	margin-left: 35px;
-	margin-right: 35px;
-	margin-top: 87px;
-	color: #d8d3d5;
+	margin: 2rem;
+	color: black;
 	font-family: "Raleway", sans-serif;
 	line-height: 1.1;
+	border: 0 solid #fff;
+	border-radius: 0.25rem;
+	padding: 0.75rem;
+	background-color: rgba(255, 255, 255, 0.35);
 }
 
 .aboutParagraphs {
@@ -80,28 +98,43 @@ body {
 	text-align: justify;
 }
 
+.linkToResume {
+	color: var(--darkerYellow);
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 0.85em;
+	font-weight: 800;
+}
+
+.linkToResume:hover {
+	color: var(--mainBlue);
+	font-size: 1.25em;
+	transition: color 0.5s, font 0.5s;
+}
+
 .sectionLabel {
-	color: #a5ac8e;
+	color: var(--lighterBlue);
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 30px;
 	font-family: "Raleway", sans-serif;
 	letter-spacing: 2px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .projectTitles {
 	text-transform: uppercase;
 	padding-top: 20px;
 	margin-left: 20px;
-	color: #a5ac8e;
+	color: var(--mainWhite);
 	font-family: "Raleway", sans-serif;
 	font-weight: 500;
 }
 
 button {
-	background-color: rgb(10, 10, 10);
-	border-color: rgb(10, 10, 10);
+	background-color: var(--backgroundGrey);
+	border-color: var(--backgroundGrey);
 	width: 100%;
 }
 
@@ -184,7 +217,7 @@ button {
 }
 
 .textOnHover {
-	background-color: #b8810a;
+	background-color: var(--mainYellow);
 	color: black;
 	font-size: 1.5em;
 	padding: 16px 32px;
@@ -194,7 +227,7 @@ button {
 
 .imageClick {
 	font-size: 0.5em;
-	color: white;
+	color: var(--mainWhite);
 	margin-right: 20px;
 	text-align: right;
 }
@@ -216,14 +249,14 @@ button {
 	margin-left: 5.5%;
 	margin-right: 5.5%;
 	text-align: justify;
-	color: #d8d3d5;
+	color: var(--mainWhite);
 	font-family: "Raleway", sans-serif;
 	font-size: 0.85em;
 }
 
 /* link to github code */
 a.linkToCode {
-	color: #c903fa;
+	color: var(--mainYellow);
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-left: 5.5%;
@@ -233,21 +266,7 @@ a.linkToCode {
 
 /* mouse over link to github code*/
 a.linkToCode:hover {
-	color: #690283;
-	font-size: 1.25em;
-	transition: color 0.5s, font 0.5s;
-}
-
-.linkToResume {
-	color: #c903fa;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-family: "Raleway", sans-serif;
-	font-size: 0.85em;
-}
-
-.linkToResume:hover {
-	color: #690283;
+	color: var(--lighterBlue);
 	font-size: 1.25em;
 	transition: color 0.5s, font 0.5s;
 }
@@ -258,7 +277,7 @@ a.linkToCode:hover {
 
 /* link to hosted sites */
 a.linkToHosted {
-	color: #b8810a;
+	color: var(--lighterBlue);
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-bottom: 100px;
@@ -269,14 +288,14 @@ a.linkToHosted {
 
 /* mouse over link to hosted sites */
 a.linkToHosted:hover {
-	color: #af6607;
+	color: var(--mainYellow);
 	font-size: 1.25em;
 	transition: color 0.5s, font 0.5s;
 }
 
 .aboutPersonal {
 	margin-bottom: 30px;
-	color: #d8d3d5;
+	color: var(--mainWhite);
 	font-family: "Raleway", sans-serif;
 }
 
@@ -309,7 +328,7 @@ a.linkToHosted:hover {
 	padding: 15px;
 	font-size: 1em;
 	font-weight: 500px;
-	color: #926e03;
+	color: var(--mainYellow);
 	font-family: "Jura", sans-serif;
 }
 
@@ -319,7 +338,7 @@ a.linkToHosted:hover {
 	position: fixed;
 	top: 25px;
 	padding: 12px;
-	background-color: rgb(199, 196, 196);
+	background-color: var(--modalBackground);
 	max-height: calc(115vh - 210px);
 	overflow-y: auto;
 }
@@ -331,7 +350,7 @@ a.linkToHosted:hover {
 	top: 25px;
 	padding: 12px;
 	border-radius: 4px;
-	background-color: rgb(199, 196, 196);
+	background-color: var(--modalBackground);
 }
 
 .fieldGuideModal {
@@ -341,7 +360,7 @@ a.linkToHosted:hover {
 	top: 0;
 	padding: 12px;
 	border-radius: 4px;
-	background-color: rgb(199, 196, 196);
+	background-color: var(--modalBackground);
 }
 
 .modal-close-button {
@@ -376,34 +395,41 @@ a.linkToHosted:hover {
 ////////////////////////////
 /////////////////////// */
 @media screen and (min-width: 500px) {
-	.header {
-		height: 190px;
-		background: rgba(255, 255, 255, 0);
+	.title {
+		padding-bottom: 4rem;
 	}
 
 	.titleName {
-		margin-left: 25%;
+		margin-left: 24%;
+		padding-top: 1rem;
 	}
 
 	.namePicTwo {
-		width: 180px;
+		width: 170px;
 	}
 
 	.titleDescription {
 		margin-left: 60%;
 		margin-top: -15%;
-		padding-bottom: 95px;
+		/* padding-bottom: 55px; */
 	}
 
 	#titleDescription {
 		font-size: 1.1em;
 	}
 
+	.contact {
+		margin-top: 1rem;
+	}
+
+	.headerParallax {
+		margin: 2rem 0 2rem 0;
+	}
+
 	.about {
-		margin-left: 15%;
-		margin-right: 15%;
+		margin: 3rem 18% 3rem 18%;
 		font-size: 1.1em;
-		margin-top: 160px;
+		color: black;
 	}
 
 	.sectionLabel {
@@ -541,7 +567,7 @@ a.linkToHosted:hover {
 	}
 }
 
-/* Media query for tablets */
+/* Media query for tablets (792px)*/
 /* ///////////////////////////// /
 //////////////////////////
 /////////////////////
@@ -557,27 +583,34 @@ a.linkToHosted:hover {
 		height: 235px;
 	}
 
+	.title {
+		padding-bottom: 4.5rem;
+	}
+
 	.titleName {
 		display: inline-block;
 		margin-left: 25%;
 	}
 
 	.namePicTwo {
-		width: 250px;
+		width: 230px;
 	}
 
 	.titleDescription {
 		margin-left: 58%;
 		margin-top: -13%;
-		padding-bottom: 130px;
 	}
 
 	#titleDescription {
 		font-size: 1.3em;
 	}
 
+	.headerParallax {
+		margin: 10rem 0 2rem 0;
+	}
+
 	.about {
-		margin: 230px 20% 50px 20%;
+		margin: 4rem 20% 4rem 20%;
 		font-size: 1.2em;
 		line-height: 1.2;
 	}
@@ -674,7 +707,11 @@ a.linkToHosted:hover {
 
 @media screen and (min-width: 1200px) {
 	.header {
-		height: 350px;
+		height: 300px;
+	}
+
+	.title {
+		padding-bottom: 6.5rem;
 	}
 
 	.titleName {
@@ -683,7 +720,7 @@ a.linkToHosted:hover {
 	}
 
 	.namePicTwo {
-		width: 300px;
+		width: 250px;
 	}
 
 	.titleName {
@@ -694,7 +731,6 @@ a.linkToHosted:hover {
 	.titleDescription {
 		margin-left: 58%;
 		margin-top: -11%;
-		padding-bottom: 150px;
 	}
 
 	#titleDescription {
@@ -708,9 +744,25 @@ a.linkToHosted:hover {
 		margin-right: 10%;
 	}
 
+	.headerParallax {
+		margin: 8rem 0 6rem 0;
+	}
+
 	.about {
-		margin: 200px 27% 65px 27%;
+		margin: 4rem 22% 4rem 22%;
 		font-size: 1.3em;
+		border: 0 solid #fff;
+		border-radius: 0.25rem;
+		padding: 0.75rem;
+		background-color: rgba(255, 255, 255, 0.35);
+	}
+
+	.linkToResume {
+		font-size: 1.15rem;
+	}
+
+	.linkToResume:hover {
+		font-size: 1.3rem;
 	}
 
 	/* project images, hover text and modals */
@@ -776,14 +828,6 @@ a.linkToHosted:hover {
 	/* mouse over link to github code*/
 	a.linkToCode:hover {
 		font-size: 1.5em;
-	}
-
-	.linkToResume {
-		font-size: 1.1em;
-	}
-
-	.linkToResume:hover {
-		font-size: 1.3em;
 	}
 
 	a.linkToCodeAlt:hover {
@@ -854,16 +898,4 @@ a.linkToHosted:hover {
 
 .back-home {
 	background-color: white;
-}
-
-.linkToResume {
-	color: #c903fa;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-family: "Raleway", sans-serif;
-	font-size: 0.85em;
-}
-
-.linkToResume:hover {
-	font-size: 1.5e;
 }
