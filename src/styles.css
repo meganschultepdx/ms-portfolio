@@ -25,6 +25,25 @@ body {
 	background-color: var(--backgroundGrey);
 }
 
+.backhome-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.back-home {
+	background-color: var(--mainBlue);
+	height: 3rem;
+	width: 20%;
+	margin: 0.5rem;
+	border-radius: 1rem;
+	color: var(--mainWhite);
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
 .title {
 	padding-bottom: 4rem;
 }
@@ -260,7 +279,7 @@ a.linkToCode {
 
 /* mouse over link to github code*/
 a.linkToCode:hover {
-	color: var(--mainBlue);
+	color: var(--darkerYellow);
 	font-size: 1.25em;
 	transition: color 0.5s, font 0.5s;
 }
@@ -282,7 +301,7 @@ a.linkToHosted {
 
 /* mouse over link to hosted sites */
 a.linkToHosted:hover {
-	color: var(--darkerYellow);
+	color: var(--mainBlue);
 	font-size: 1.25em;
 	transition: color 0.5s, font 0.5s;
 }
@@ -891,8 +910,4 @@ a.linkToHosted:hover {
 	.fieldGuideVid {
 		margin-top: 10px;
 	}
-}
-
-.back-home {
-	background-color: white;
 }
