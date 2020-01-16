@@ -31,6 +31,10 @@ body {
 	justify-content: center;
 }
 
+.home-link {
+	text-decoration: none;
+}
+
 .back-home {
 	background-color: var(--mainBlue);
 	height: 3rem;
@@ -41,7 +45,6 @@ body {
 	text-transform: uppercase;
 	font-size: 1rem;
 	letter-spacing: 1px;
-	text-decoration: none;
 }
 
 /* styling for ScrollButton comp */
