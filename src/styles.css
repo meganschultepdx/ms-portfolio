@@ -52,7 +52,7 @@ body {
 	width: 1.75rem;
 	height: 1.75rem;
 	position: fixed;
-	bottom: 2rem;
+	bottom: 3.25rem;
 	right: 0rem;
 	border-radius: 5px;
 	border: none;
@@ -64,6 +64,7 @@ body {
 .scrollBtn:hover {
 	opacity: 1;
 	background-color: var(--lighterBlue);
+	transition: all 0.5s;
 }
 
 .arrow-up {
@@ -361,13 +362,14 @@ a.linkToHosted:hover {
 
 .footer {
 	width: 100%;
-	height: 50px;
+	height: 3rem;
 	background: rgba(255, 255, 255, 0.05);
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-transform: uppercase;
-	padding: 15px;
 	font-size: 1em;
-	font-weight: 500px;
+	font-weight: 500;
 	color: var(--mainYellow);
 	font-family: "Jura", sans-serif;
 }
@@ -440,7 +442,7 @@ a.linkToHosted:hover {
 		opacity: 0.8;
 		width: 2.75rem;
 		height: 2rem;
-		bottom: 2rem;
+		bottom: 0.5rem;
 		right: 0.75rem;
 	}
 
@@ -587,8 +589,7 @@ a.linkToHosted:hover {
 	}
 
 	.footer {
-		height: 100px;
-		padding: 40px;
+		height: 3.5rem;
 	}
 
 	/* modals for projects */
@@ -635,7 +636,6 @@ a.linkToHosted:hover {
 		opacity: 0.8;
 		width: 3.25rem;
 		height: 2.25rem;
-		bottom: 3rem;
 		right: 1.5rem;
 	}
 
@@ -730,11 +730,6 @@ a.linkToHosted:hover {
 		width: 25%;
 	}
 
-	.footer {
-		height: 100px;
-		padding: 40px;
-	}
-
 	/* modals for projects */
 
 	.modal {
@@ -773,7 +768,6 @@ a.linkToHosted:hover {
 		opacity: 0.8;
 		width: 4rem;
 		height: 2.25rem;
-		bottom: 1.5rem;
 		right: 1.5rem;
 	}
 
@@ -929,8 +923,7 @@ a.linkToHosted:hover {
 	}
 
 	.footer {
-		height: 100px;
-		padding: 40px;
+		height: 5rem;
 	}
 
 	/* modals for projects */

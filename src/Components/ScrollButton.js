@@ -1,4 +1,3 @@
-/** React components for scrolling back to the top of the page **/
 import React from "react";
 
 class ScrollButton extends React.Component {
