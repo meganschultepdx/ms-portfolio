@@ -1,21 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 import HeaderT from "./HeaderT";
-// import About from "./About";
 import Projects from "./Projects";
 import AboutPersonal from "./AboutPersonal";
 import Footer from "./Footer.jsx";
-import HeaderParallax from "../Components/HeaderParallax";
+import HeaderParallax from "./HeaderParallax";
+import ScrollButton from "./ScrollButton";
 
-export default class Home extends Component {
-	render() {
-		return (
-			<React.Fragment>
-				<HeaderT />
-				<HeaderParallax />
-				<Projects />
-				<AboutPersonal />
-				<Footer />
-			</React.Fragment>
-		);
-	}
-}
+const Home = () => {
+	return (
+		<React.Fragment>
+			<HeaderT />
+			<HeaderParallax />
+			<Projects />
+			<AboutPersonal />
+			<ScrollButton />
+			<Footer />
+		</React.Fragment>
+	);
+};
+export default Home;
