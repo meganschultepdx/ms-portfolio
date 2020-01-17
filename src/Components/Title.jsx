@@ -16,7 +16,7 @@ const Title = () => {
 			</div>
 			<div className="titleDescription">
 				<h2 id="titleDescription">
-					front-end developer
+					full stack developer
 					<br />
 					portland oregon
 				</h2>

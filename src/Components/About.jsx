@@ -6,7 +6,7 @@ const About = () => {
 	return (
 		<div className="about">
 			<p className="aboutParagraphs">
-				Hi! I am front-end developer who is most passionate about bringing
+				Hi! I am full-stack developer who is most passionate about bringing
 				beautiful designs and interactive, intuitive user experiences to life!
 			</p>
 			{/* <p className="aboutParagraphs  two">
