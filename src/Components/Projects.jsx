@@ -13,6 +13,7 @@ const PartnerScraper2 = require("../assets/img/PartnerScraper2.jpg");
 const freefood = require("../assets/img/freefood.png");
 const hairsalon = require("../assets/img/hairsalon.png");
 const ecommerceStore = require("../assets/img/ecommerceStore.png");
+const wordpressBlog = require("../assets/img/wordpressBlog.png");
 
 const Projects = () => {
 	const {
@@ -65,6 +66,41 @@ const Projects = () => {
 				href="https://github.com/meganschultepdx/react-ecommerce-store"
 				target="blank"
 				className="linkToCode linkToCodeAlt"
+			>
+				view Code
+			</a>
+			<div className="spacer"></div>
+
+			{/* Work in progress WordPress Custom Theme */}
+			<h3 className="projectTitles">
+				Work in Progress WordPress Custom Theme Blog Site
+			</h3>
+			<button>
+				<div className="container">
+					<img
+						src={wordpressBlog}
+						alt="screen shot of wordpress blog"
+						className="screenShot"
+					/>
+					<div className="middle">
+						<div className="textOnHover">click below to view code</div>
+					</div>
+				</div>
+			</button>
+			<h4 className="stackUsed">
+				WordPress Custom Theme Blog Site using JavaScript, HTML and PHP
+			</h4>
+			<p className="aboutProject">
+				This site is definitely a work in progress. With it I am learning to
+				build a WordPress custom theme and custom fields. I have been learning
+				PHP while building it. I don't have it hosted yet and have not added any
+				styling but will be doing so soon!
+			</p>
+			<a
+				aria-label="GitHub"
+				href="https://github.com/meganschultepdx/wordpressThemeDevelopment"
+				target="blank"
+				className="linkToCode"
 			>
 				view Code
 			</a>
